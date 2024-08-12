@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Cabin", sans-serif;
+}
+
+@layer base {
+  .fifty-per-30-minus {
+    top: calc(50% + 30px);
+  }
+  .full-70 {
+    flex: 0 0 70px;
+  }
+  .full-minus-70 {
+    flex: 0 0 calc(100% - 70px);
+  }
+  .full-50 {
+    flex: 0 0 50px;
+  }
+  .full-minus-50 {
+    flex: 0 0 calc(100% - 50px);
+  }
+
+  .table-scroll::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .table-scroll::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+  }
+  .table-scroll::-webkit-scrollbar-thumb {
+    background: #0061aa;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+  }
+
+  .equip-slider {
+    opacity: 0;
+  }
+  .equip-slider.slick-initialized {
+    opacity: 1;
+    position: relative;
+  }
+  .equip-slider .slick-arrow {
+    position: absolute;
+    top: -55px;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 43px;
+    height: 43px;
+  }
+  .equip-slider .slick-arrow:hover {
+    opacity: 0.7;
+  }
+  .equip-slider .slick-arrow svg {
+    font-size: 30px;
+  }
+  .equip-slider .slick-arrow:before {
+    content: none;
+  }
+  .equip-slider .slick-arrow.slick-next svg {
+    fill: #ffffff;
+  }
+  .equip-slider .slick-arrow.slick-next {
+    right: 0;
+    background-image: url("/images/eqiup-slide-shape-dark-blue.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .equip-slider .slick-arrow.slick-prev svg {
+    fill: #0061aa;
+  }
+  .equip-slider .slick-arrow.slick-prev {
+    left: unset;
+    right: 53px;
+    background-image: url("/images/eqiup-slide-shape-light-blue.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .equip-slider .slick-track {
+    display: flex;
+  }
+  .equip-slider .slick-slide {
+    height: inherit;
+    padding: 0 10px;
+  }
+  .equip-slider .slick-list {
+    margin: 0 -10px;
+  }
+  .equip-slider .slick-slide > * {
+    height: 100%;
+    padding: 30px 0;
+  }
+  .height-minus-30 {
+    height: calc(100% - 30px);
+  }
+
+  .backgound-40 {
+    background-size: calc(100% + 61px) calc(100% + 50px);
+    background-position: -30px -30px;
+  }
+  .testimonial-slider .slick-track {
+    display: flex;
+  }
+  .testimonial-slider .slick-slide {
+    height: inherit;
+  }
+  .testimonial-slider .slick-slide > * {
+    padding-top: 30px;
+    padding-right: 24px;
+    height: 100%;
+  }
+  .testimonial-slider .slick-dots {
+    text-align: left;
+  }
+  .testimonial-slider .slick-dots li {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+  }
+  .testimonial-slider .slick-dots li button {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+  }
+  .testimonial-slider .slick-dots li button:before {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    color: #d1d1d1;
+    opacity: 1;
+  }
+  .testimonial-slider .slick-dots li.slick-active button:before {
+    color: #e64b15;
+    opacity: 1;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    .full-70 {
+      flex: 0 0 50px;
+    }
+    .full-minus-70 {
+      flex: 0 0 calc(100% - 50px);
+    }
+    .full-50 {
+      flex: 0 0 40px;
+    }
+    .full-minus-50 {
+      flex: 0 0 calc(100% - 40px);
+    }
+  }
+
+  @media (min-width: 1135px) and (max-width: 1279px) {
+    .backgound-40 {
+      background-size: calc(100% + 54px) calc(100% + 56px);
+      background-position: -27px -34px;
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1134px) {
+    .backgound-40 {
+      background-size: calc(100% + 48px) calc(100% + 63px);
+      background-position: -24px -38px;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    .full-70 {
+      flex: 0 0 40px;
+    }
+    .full-minus-70 {
+      flex: 0 0 calc(100% - 40px);
+    }
+    .full-50 {
+      flex: 0 0 30px;
+    }
+    .full-minus-50 {
+      flex: 0 0 calc(100% - 30px);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .equip-slider .slick-arrow {
+      top: -5px;
+    }
+    .backgound-40 {
+      background-size: 100% 100%;
+      background-position: unset;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-div > *:nth-child(even) .column-div {
+    flex-direction: row-reverse !important;
+  }
+}
