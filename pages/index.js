@@ -10,7 +10,6 @@ import PricingChart from "@/components/PricingChart";
 import BannerRight from "@/public/images/banner-right.png";
 import Logo from "../public/images/logo.png";
 import CameraApp from "../public/images/cameraPageBG.png";
-import SpinText from "@/components/SpinText";
 
 export default function Home() {
   return (

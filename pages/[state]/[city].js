@@ -16,6 +16,11 @@ const CityPage = () => {
   const router = useRouter();
   const { state, city } = router.query;
 
+  const capitalize = (word) => {
+    if (!word) return "";
+    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+  };
+
   return (
     <Layout>
       <Head>
@@ -100,9 +105,9 @@ const CityPage = () => {
         bannersideimagedisplay={"block"}
       />
       <BlueBar />
-      <ServiceArea city={city} state={state} />
+      <ServiceArea city={capitalize(city)} state={capitalize(state)} />
       <PricingChart bgprice={"bg-[#ecf7ff]"} />
-      <CityBio city={city} state={state} />
+      <CityBio city={capitalize(city)} state={capitalize(state)} />
       <HowToOrder margintoporder={"mt-0"} paddingtoporder={"pt-[60px]"} paddingbottomorder={"pb-[40px]"} margintoplistorder={"mb-0"} />
       <Testimonials paddingtoptest={"pt-[90px]"} paddingtoptestscreen={"lg:pt-[90px]"} />
     </Layout>
