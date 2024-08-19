@@ -7,6 +7,15 @@ html {
 }
 
 @layer base {
+  .city-paragraph {
+    @apply relative flex basis-full md:basis-1/2 mb-2 md:mb-3 pl-4 font-normal text-[18px] leading-[156%];
+  }
+
+  .city-paragraph::after {
+    content: "";
+    @apply absolute bg-no-repeat left-0 top-[8px] z-10 h-[15px] w-[15px];
+    background-image: url("/images/liShape.png");
+  }
   .fifty-per-30-minus {
     top: calc(50% + 30px);
   }
