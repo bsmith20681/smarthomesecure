@@ -11,7 +11,7 @@ import BannerRight from "@/public/images/banner-right.png";
 import Logo from "../public/images/logo.png";
 import CameraApp from "../public/images/cameraPageBG.png";
 
-export default function Home() {
+export default function Home({ citiesDB }) {
   return (
     <Layout>
       <Head>
@@ -55,6 +55,7 @@ export default function Home() {
         />
       </Head>
       <main>
+        {console.log(citiesDB)}
         <Hero
           rightimage={BannerRight}
           paddingbottom={"pb-[70px]"}

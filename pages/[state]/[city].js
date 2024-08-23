@@ -12,7 +12,7 @@ import Head from "next/head";
 import Logo from "@/public/images/logo.png";
 import CameraApp from "@/public/images/cameraPageBG.png";
 
-const CityPage = () => {
+const CityPage = ({ citiesDB, nearbyCitiesDB }) => {
   const router = useRouter();
   const { state, city } = router.query;
 
@@ -87,6 +87,9 @@ const CityPage = () => {
           }}
         />
       </Head>
+      {console.log(citiesDB)}
+      {console.log(nearbyCitiesDB)}
+
       <Hero
         rightimage={BannerRight}
         paddingtop={"pt-0"}
@@ -96,7 +99,7 @@ const CityPage = () => {
         bldisplay={"hidden"}
         beadcrumbdisplay={"flex"}
         bannertitle={`ADT Home Security in`}
-        bannertitlespan={`${city}, ${state}`}
+        bannertitlespan={`${capitalize(city)}, ${capitalize(state)}`}
         bannertitleright={""}
         bannermaxwidth={""}
         breadcrumb1={"Locations"}
@@ -115,3 +118,20 @@ const CityPage = () => {
 };
 
 export default CityPage;
+
+export async function getServerSideProps(context) {
+  const { city, state } = context.query;
+
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/all-cities`);
+  const citiesDB = await res.json();
+
+  const nearbyCitiesRes = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/nearby-cities?cityName=${city}&state=${state}`);
+  const nearbyCitiesDB = await nearbyCitiesRes.json();
+
+  return {
+    props: {
+      citiesDB,
+      nearbyCitiesDB,
+    },
+  };
+}

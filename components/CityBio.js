@@ -565,8 +565,8 @@ Our systems include all the essential features you need to keep your home secure
       <div className="container">
         <div className="home-security-main flex flex-col-reverse lg:flex-row py-10 lg:py-20 justify-between items-center">
           <div className="basis-[570px]">
-            <div class="service-title text-start pt-8 lg:pt-0 md:max-w-[768px] lg:max-w-full mx-auto">
-              <h2 class="font-manrope font-extrabold text-balance text-special-blue text-[34px] lg:text-[40px] xl:text-[50px] leading-[120%] max-w-[820px] mx-auto mb-[20px] text-center lg:text-start">{spunHeadline}</h2>
+            <div className="service-title text-start pt-8 lg:pt-0 md:max-w-[768px] lg:max-w-full mx-auto">
+              <h2 className="font-manrope font-extrabold text-balance text-special-blue text-[34px] lg:text-[40px] xl:text-[50px] leading-[120%] max-w-[820px] mx-auto mb-[20px] text-center lg:text-start">{spunHeadline}</h2>
 
               <div className="m-0 text-[18px] font-manrope leading-[28px] font-regular text-[#2c2c2c] text-center lg:text-start">
                 {spunFirstSentence}

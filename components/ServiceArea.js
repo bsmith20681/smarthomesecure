@@ -11,8 +11,8 @@ const ServiceArea = ({ city, state }) => {
     <div className="service-main">
       <div className="container">
         <div className="service-wrp pt-[40px] pb-[30px] md:pt-[50px] md:pb-[40px] xl:pt-[75px] xl:pb-[70px]">
-          <div class="service-title text-center">
-            <h2 class="font-manrope font-extrabold text-special-blue text-[34px] lg:text-[40px] xl:text-[50px] leading-[120%] max-w-[820px] mx-auto mb-[20px]">ADT {city} Service Area</h2>
+          <div className="service-title text-center">
+            <h2 className="font-manrope font-extrabold text-special-blue text-[34px] lg:text-[40px] xl:text-[50px] leading-[120%] max-w-[820px] mx-auto mb-[20px]">ADT {city} Service Area</h2>
           </div>
           <div className="service-content pt-0 lg:pt-5 flex flex-col lg:flex-row">
             <div className="service-left basis-[100%] lg:basis-[50%] ">
@@ -21,8 +21,8 @@ const ServiceArea = ({ city, state }) => {
                   width="100%"
                   height="576px"
                   loading="lazy"
-                  allowfullscreen
-                  referrerpolicy="no-referrer-when-downgrade"
+                  allowFullScreen
+                  referrerPolicy="no-referrer-when-downgrade"
                   src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBHJgjR2xvxdGV3zGXaRJsHqYrdn7QGFP4
     &q=${city}+${state}`}
                 />
