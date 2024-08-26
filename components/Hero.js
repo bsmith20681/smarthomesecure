@@ -67,7 +67,14 @@ const Hero = ({ rightimage, paddingbottom, paddingbottomscreen, paddingtop, padd
         </div>
         <div className="banner-right lg:basis-[50%]">
           <div className="banner-right-img relative">
-            <Image src={rightimage} alt="img" className="w-full object-cover min-h-[530px] max-w-[730px] lg:max-w-[unset] max-h-[714px] lg:max-h-[unset] ml-auto" />
+            <Image
+              src={`/images/state-home-images/${breadcrumb2}.jpg`}
+              style={{ clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 15% 100%, 0% 80%)" }}
+              width="845"
+              height="638"
+              alt="img"
+              className="w-full object-cover min-h-[530px] max-w-[730px] lg:max-w-[unset] max-h-[714px] lg:max-h-[unset] ml-auto"
+            />
             <div className={`banner-right-img-card pt-[18px] pb-[28px] px-[28px] bg-[#ffffffe6] w-[414px] max-w-[80%] absolute right-0 bottom-[45px] ${bannersideimagedisplay}`}>
               <div className="banner-right-img-above flex flex-wrap items-center justify-between mb-[15px]">
                 <div className="banner-right-img-logo">

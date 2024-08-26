@@ -6,7 +6,7 @@ import serviceImgCenter from "@/public/images/service-img-center.png";
 
 import Link from "next/link";
 
-const ServiceArea = ({ city, state }) => {
+const ServiceArea = ({ city, state, nearbyCities }) => {
   return (
     <div className="service-main">
       <div className="container">
@@ -37,7 +37,7 @@ const ServiceArea = ({ city, state }) => {
                   <div className="security-left pb-7 md:pb-0">
                     <h5 className="font-manrope font-extrabold text-special-blue text-[24px] leading-[30px] pb-4 m-0">ADT Security Services</h5>
                     <h6 className="font-regular text-special-blue text-[18px] font-manrope leading-[28px]">
-                      {city} {state} 75201 United States
+                      {city} {state} {nearbyCities.targetCityZipCode} United States
                     </h6>
                     <h6>
                       <Link href="tel:18332247221" className="font-regular text-special-blue text-[18px] font-manrope leading-[28px] hover:text-black">
@@ -53,58 +53,15 @@ const ServiceArea = ({ city, state }) => {
                 </div>
                 <div className="nearby-cities pt-7 md:max-w-[768px] lg:max-w-full mx-auto">
                   <h5 className="font-manrope font-extrabold text-special-blue text-[24px] leading-[30px] pb-4 m-0 text-center lg:text-start">Nearby Cities</h5>
-                  <div className="nearby-cities-list flex justify-center lg:justify-between align-top ">
-                    <ul className="basis-[180px] lg:basis-[260px]">
-                      <li className="basis-1/2 relative flex flex-row gap-1 after:absolute after:bg-[url('/images/pin.png')] after:bg-no-repeat after:bg-cover after:left-0 after:top-[50%] after:translate-y-[-50%] after:content-[''] after:z-10 after:h-[22px] after:w-[18px] pl-[25px] font-manrope font-regular text-black text-[18px] leading-[156%] mb-[10px]">
-                        {" "}
-                        Highland Park{" "}
-                      </li>
-                      <li className="basis-1/2 relative flex flex-row gap-1 after:absolute after:bg-[url('/images/pin.png')] after:bg-no-repeat after:bg-cover after:left-0 after:top-[50%] after:translate-y-[-50%] after:content-[''] after:z-10 after:h-[22px] after:w-[18px] pl-[25px] font-manrope font-regular text-black text-[18px] leading-[156%] mb-[10px]">
-                        {" "}
-                        University Park
-                      </li>
-                      <li className="basis-1/2 relative flex flex-row gap-1 after:absolute after:bg-[url('/images/pin.png')] after:bg-no-repeat after:bg-cover after:left-0 after:top-[50%] after:translate-y-[-50%] after:content-[''] after:z-10 after:h-[22px] after:w-[18px] pl-[25px] font-manrope font-regular text-black text-[18px] leading-[156%] mb-[10px]">
-                        {" "}
-                        Cockrel Hill
-                      </li>
-                      <li className="basis-1/2 relative flex flex-row gap-1 after:absolute after:bg-[url('/images/pin.png')] after:bg-no-repeat after:bg-cover after:left-0 after:top-[50%] after:translate-y-[-50%] after:content-[''] after:z-10 after:h-[22px] after:w-[18px] pl-[25px] font-manrope font-regular text-black text-[18px] leading-[156%] mb-[10px]">
-                        {" "}
-                        Irving
-                      </li>
-                      <li className="basis-1/2 relative flex flex-row gap-1 after:absolute after:bg-[url('/images/pin.png')] after:bg-no-repeat after:bg-cover after:left-0 after:top-[50%] after:translate-y-[-50%] after:content-[''] after:z-10 after:h-[22px] after:w-[18px] pl-[25px] font-manrope font-regular text-black text-[18px] leading-[156%] mb-[10px]">
-                        {" "}
-                        Hutchins
-                      </li>
-                      <li className="basis-1/2 relative flex flex-row gap-1 after:absolute after:bg-[url('/images/pin.png')] after:bg-no-repeat after:bg-cover after:left-0 after:top-[50%] after:translate-y-[-50%] after:content-[''] after:z-10 after:h-[22px] after:w-[18px] pl-[25px] font-manrope font-regular text-black text-[18px] leading-[156%] mb-[10px]">
-                        {" "}
-                        Balch Springs
-                      </li>
-                    </ul>
-                    <ul className="basis-[180px] lg:basis-[233px]">
-                      <li className="basis-1/2 relative flex flex-row gap-1 after:absolute after:bg-[url('/images/pin.png')] after:bg-no-repeat after:bg-cover after:left-0 after:top-[50%] after:translate-y-[-50%] after:content-[''] after:z-10 after:h-[22px] after:w-[18px] pl-[25px] font-manrope font-regular text-black text-[18px] leading-[156%] mb-[10px]">
-                        {" "}
-                        Duncanville
-                      </li>
-                      <li className="basis-1/2 relative flex flex-row gap-1 after:absolute after:bg-[url('/images/pin.png')] after:bg-no-repeat after:bg-cover after:left-0 after:top-[50%] after:translate-y-[-50%] after:content-[''] after:z-10 after:h-[22px] after:w-[18px] pl-[25px] font-manrope font-regular text-black text-[18px] leading-[156%] mb-[10px]">
-                        {" "}
-                        Mesquite
-                      </li>
-                      <li className="basis-1/2 relative flex flex-row gap-1 after:absolute after:bg-[url('/images/pin.png')] after:bg-no-repeat after:bg-cover after:left-0 after:top-[50%] after:translate-y-[-50%] after:content-[''] after:z-10 after:h-[22px] after:w-[18px] pl-[25px] font-manrope font-regular text-black text-[18px] leading-[156%] mb-[10px]">
-                        {" "}
-                        Buckingham
-                      </li>
-                      <li className="basis-1/2 relative flex flex-row gap-1 after:absolute after:bg-[url('/images/pin.png')] after:bg-no-repeat after:bg-cover after:left-0 after:top-[50%] after:translate-y-[-50%] after:content-[''] after:z-10 after:h-[22px] after:w-[18px] pl-[25px] font-manrope font-regular text-black text-[18px] leading-[156%] mb-[10px]">
-                        {" "}
-                        Farmers Branch
-                      </li>
-                      <li className="basis-1/2 relative flex flex-row gap-1 after:absolute after:bg-[url('/images/pin.png')] after:bg-no-repeat after:bg-cover after:left-0 after:top-[50%] after:translate-y-[-50%] after:content-[''] after:z-10 after:h-[22px] after:w-[18px] pl-[25px] font-manrope font-regular text-black text-[18px] leading-[156%] mb-[10px]">
-                        {" "}
-                        Richardson
-                      </li>
-                      <li className="basis-1/2 relative flex flex-row gap-1 after:absolute after:bg-[url('/images/pin.png')] after:bg-no-repeat after:bg-cover after:left-0 after:top-[50%] after:translate-y-[-50%] after:content-[''] after:z-10 after:h-[22px] after:w-[18px] pl-[25px] font-manrope font-regular text-black text-[18px] leading-[156%] mb-[10px]">
-                        {" "}
-                        Grand Prairie
-                      </li>
+                  <div className="nearby-cities-list">
+                    <ul className="basis-[180px]  lg:basis-[260px] grid grid-cols-1 md:grid-cols-2 justify-between w-full">
+                      {nearbyCities.nearbyCities.slice(0, 18).map((location) => (
+                        <li className="basis-1/2  relative flex flex-row gap-1 after:absolute after:bg-[url('/images/pin.png')] after:bg-no-repeat after:bg-cover after:left-0 after:top-[50%] after:translate-y-[-50%] after:content-[''] after:z-10 after:h-[22px] after:w-[18px] pl-[25px] font-manrope font-regular text-black text-[18px] leading-[156%] mb-[10px]">
+                          <Link className="hover:underline" href={`/${location.state_name}/${location.city}`}>
+                            {location.city}
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>

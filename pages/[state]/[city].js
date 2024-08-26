@@ -87,9 +87,7 @@ const CityPage = ({ citiesDB, nearbyCitiesDB }) => {
           }}
         />
       </Head>
-      {console.log(citiesDB)}
       {console.log(nearbyCitiesDB)}
-
       <Hero
         rightimage={BannerRight}
         paddingtop={"pt-0"}
@@ -103,12 +101,12 @@ const CityPage = ({ citiesDB, nearbyCitiesDB }) => {
         bannertitleright={""}
         bannermaxwidth={""}
         breadcrumb1={"Locations"}
-        breadcrumb2={`${state}`}
-        breadcrumb3={`${city}`}
+        breadcrumb2={`${capitalize(state)}`}
+        breadcrumb3={`${capitalize(city)}`}
         bannersideimagedisplay={"block"}
       />
       <BlueBar />
-      <ServiceArea city={capitalize(city)} state={capitalize(state)} />
+      <ServiceArea nearbyCities={nearbyCitiesDB} city={capitalize(city)} state={capitalize(state)} />
       <PricingChart bgprice={"bg-[#ecf7ff]"} />
       <CityBio city={capitalize(city)} state={capitalize(state)} />
       <HowToOrder margintoporder={"mt-0"} paddingtoporder={"pt-[60px]"} paddingbottomorder={"pb-[40px]"} margintoplistorder={"mb-0"} />
