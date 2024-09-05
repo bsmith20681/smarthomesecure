@@ -1,31 +1,35 @@
 "use client";
 import Link from "next/link";
 import { PlusIcon, MinusIcon } from "@heroicons/react/24/solid";
+import CallButton from "./CallButton";
 import React, { useEffect, useRef, useState } from "react";
 
 const Faq = () => {
   const faqData = [
     {
-      question: "Is ADT a good company?",
+      question: "What types of security systems does ADT offer?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+        "ADT offers a variety of security solutions tailored to your specific needs, including smart home automation, 24/7 monitoring, video surveillance, and burglar alarms. With ADT, you can also integrate additional features like fire, flood, and carbon monoxide monitoring, ensuring your home is protected from multiple threats.",
     },
     {
-      question: "Why do I need a security system?",
+      question: "How does ADT’s professional monitoring work?",
       answer:
-        "ADT provides a range of services that include home security systems, professional monitoring, and emergency response. These services help to ensure the safety and security of your home.ADT provides a range of services that include home security systems, professional monitoring, and emergency response.",
+        "ADT provides 24/7 professional monitoring through its network of monitoring centers across the country. If an alarm is triggered, ADT immediately contacts you and, if needed, dispatches emergency services. ADT's rapid response team ensures that help is always just a call away, whether it's for a burglary, fire, or medical emergency.",
     },
     {
-      question: "Does ADT have fire protection?",
-      answer: "ADT offers home security systems, video surveillance, smart home automation, and professional monitoring services.",
+      question: "What is the installation process for ADT?",
+      answer:
+        "ADT offers both professional and DIY installation options. For most comprehensive systems, professional installation ensures everything is set up correctly and functioning properly. A certified ADT technician will come to your home, install the equipment, and provide a walkthrough of the system’s features. For smaller setups, ADT's Blue DIY system allows you to easily install equipment yourself.",
     },
     {
-      question: "What is a video doorbell?",
-      answer: "ADT has been a trusted name in home security for over 140 years, providing reliable and professional services to millions of customers.",
+      question: "Can I control my ADT system remotely?",
+      answer:
+        "Yes! ADT offers the ADT Control app, which allows you to monitor and manage your home security system from anywhere. Through the app, you can arm and disarm your system, view live footage from security cameras, receive real-time alerts, and even control smart home devices such as lights, locks, and thermostats.",
     },
     {
-      question: "What are the benefits of a wireless security system?",
-      answer: "ADT has been a trusted name in home security for over 140 years, providing reliable and professional services to millions of customers.",
+      question: "What happens if my power or internet goes out?",
+      answer:
+        "ADT security systems are equipped with battery backup, so they continue to function during a power outage. If your system relies on Wi-Fi, ADT provides cellular backup to ensure continuous monitoring even if your internet connection goes down. This means your home stays protected, no matter what.",
     },
   ];
 
@@ -51,14 +55,9 @@ const Faq = () => {
               <h2 className=" font-extrabold text-special-blue text-[32px] md:text-[36px] lg:text-[40px] xl:text-[50px] leading-[120%] max-lg:text-center">
                 Frequently <br /> Asked Questions{" "}
               </h2>
-              <p className=" font-normal text-special-grey text-[18px] leading-[28px] mb-[8px] max-lg:text-center">Find out how ADT service improves your physical safety and sense of security.</p>
+              <p className=" font-normal text-special-grey text-[18px] leading-[28px] mb-[8px] max-lg:text-center">Answers to Your Most Common Questions About ADT Home Security</p>
               <div className="max-lg:mx-auto">
-                <Link
-                  href="/"
-                  className="uppercase inline-block decoration-none bg-adt-orange outline-none text-white  font-extrabold text-[18px] leading-[27px] py-[12px] md:py-[14px] lg:py-[16px] xl:py-[14px] px-[24px] md:px-[32px] lg:px-[40px] xl:px-[58px] hover:bg-adt-orange-600 hover:text-white border-[1px] border-solid  hover:duration-300"
-                >
-                  see all faqs
-                </Link>
+                <CallButton />
               </div>
             </div>
           </div>

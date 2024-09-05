@@ -7,7 +7,7 @@ import Testimonials from "@/components/Testimonials";
 import EquipmentSlider from "@/components/EquipmentSlider";
 import HowToOrder from "@/components/HowToOrder";
 import PricingChart from "@/components/PricingChart";
-import BannerRight from "@/public/images/banner-right.png";
+import BannerRight from "@/public/images/hero-image-1.png";
 import Logo from "../public/images/logo.png";
 import CameraApp from "../public/images/cameraPageBG.png";
 
@@ -55,7 +55,6 @@ export default function Home({ citiesDB }) {
         />
       </Head>
       <main>
-        {console.log(citiesDB)}
         <Hero
           rightimage={BannerRight}
           paddingbottom={"pb-[70px]"}
@@ -64,12 +63,13 @@ export default function Home({ citiesDB }) {
           paddingtopscreen={"lg:pt-[30px]"}
           bldisplay={"block"}
           beadcrumbdisplay={"hidden"}
-          bannertitle={"ADT"}
-          bannertitlespan={"Home Security System"}
-          bannertitleright={"For You and Your Family"}
+          bannertitle={"Protect"}
+          bannertitlespan={"What Matters Most"}
+          bannertitleright={"with ADT Home Security"}
           bannermaxwidth={""}
           breadcrumb1={""}
           breadcrumb2={""}
+          breadcrumb2Link={""}
           breadcrumb3={""}
           bannersideimagedisplay={"hidden"}
         />

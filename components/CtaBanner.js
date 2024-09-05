@@ -15,22 +15,15 @@ const CtaBanner = () => {
           </div>
           <div className="w-full max-w-[full] lg:w-1/4 2xl:w-[320px] flex flex-col sm:flex-row lg:flex-col justify-center items-center gap-[10px] max-lg:mt-[24px]">
             <div className="lg:ml-auto">
-              <Link
+              <a
                 href="tel:18332247221"
                 className="flex text-center justify-center items-center font-manrope font-extrabold text-[18px] leading-[150%] text-white bg-transparent border-[3px] border-solid border-white px-[20px] md:px-[24px] lg:px-[28px] xl:px-[38px] py-[12px] md:py-[14px] lg:mb-[12px] hover:duration-300 hover:bg-white hover:text-[#00233d]"
               >
                 <PhoneIcon className="h-4 w-4 mr-[10px]" />
                 833-224-7221
-              </Link>
+              </a>
             </div>
-            <div className="lg:ml-auto">
-              <Link
-                href="/"
-                className="inline-flex text-center justify-center item-center font-manrope font-extrabold text-[18px] leading-[150%] text-white bg-adt-orange px-[20px] md:px-[28px] lg:px-[32px] xl:px-[42px] py-[14px] md:py-[16px] hover:bg-adt-orange-600 hover:duration-300"
-              >
-                Get a Free Quote
-              </Link>
-            </div>
+            <div className="lg:ml-auto"></div>
           </div>
         </div>
       </div>

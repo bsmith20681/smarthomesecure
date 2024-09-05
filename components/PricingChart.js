@@ -2,11 +2,13 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import PricingOne from "@/public/images/pricing-table-img-1.png";
-import PricingTwo from "@/public/images/pricing-table-img-2.png";
-import PricingThree from "@/public/images/pricing-table-img-3.png";
+import PricingOne from "@/public/images/home-automation.png";
+import PricingTwo from "@/public/images/camera-package.png";
+import PricingThree from "@/public/images/basic-package.png";
 import BlueTick from "@/public/images/pricing-blue-tick.png";
 import GreyTick from "@/public/images/pricing-grey-tick.png";
+
+import { PhoneIcon } from "@heroicons/react/24/solid";
 
 const Price = ({ bgprice }) => {
   return (
@@ -27,34 +29,34 @@ const Price = ({ bgprice }) => {
                 <div className="price-col-one-inside">
                   <div className="h-[203px] md:h-[208px]"></div>
                   <div className="border-b-[1px] border-solid border-b-[#c5c5c5] p-[16px] w-[370px] md:w-[465px] h-[60px] inline-flex items-center">
-                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">Digital Keypad with High Decibel Alarm</p>
-                  </div>
-                  <div className="border-b-[1px] border-solid border-b-[#c5c5c5] p-[16px] w-[370px] md:w-[465px] h-[60px] inline-flex items-center">
-                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">Keychain Remote</p>
-                  </div>
-                  <div className="border-b-[1px] border-solid border-b-[#c5c5c5] p-[16px] w-[370px] md:w-[465px] h-[60px] inline-flex items-center">
-                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">Pet Sensitive Motion Detector</p>
-                  </div>
-                  <div className="border-b-[1px] border-solid border-b-[#c5c5c5] p-[16px] w-[370px] md:w-[465px] h-[60px] inline-flex items-center">
-                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">Yard Sign & Window Decals</p>
-                  </div>
-                  <div className="border-b-[1px] border-solid border-b-[#c5c5c5] p-[16px] w-[370px] md:w-[465px] h-[60px] inline-flex items-center">
-                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">Cellular Alarm Alerts & Messages</p>
-                  </div>
-                  <div className="border-b-[1px] border-solid border-b-[#c5c5c5] p-[16px] w-[370px] md:w-[465px] h-[60px] inline-flex items-center">
-                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">Home Environmental Monitoring</p>
-                  </div>
-                  <div className="border-b-[1px] border-solid border-b-[#c5c5c5] p-[16px] w-[370px] md:w-[465px] h-[60px] inline-flex items-center">
                     <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">ADT 24/7 Monitoring</p>
                   </div>
                   <div className="border-b-[1px] border-solid border-b-[#c5c5c5] p-[16px] w-[370px] md:w-[465px] h-[60px] inline-flex items-center">
-                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">Professional installation</p>
+                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">Touch Screen Keypad</p>
                   </div>
                   <div className="border-b-[1px] border-solid border-b-[#c5c5c5] p-[16px] w-[370px] md:w-[465px] h-[60px] inline-flex items-center">
-                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">Intrusion detection</p>
+                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">24-Hour Batery Backup</p>
+                  </div>
+                  <div className="border-b-[1px] border-solid border-b-[#c5c5c5] p-[16px] w-[370px] md:w-[465px] h-[60px] inline-flex items-center">
+                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">Cellular Based Monitoring</p>
+                  </div>
+                  <div className="border-b-[1px] border-solid border-b-[#c5c5c5] p-[16px] w-[370px] md:w-[465px] h-[60px] inline-flex items-center">
+                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">Remote Access</p>
+                  </div>
+                  <div className="border-b-[1px] border-solid border-b-[#c5c5c5] p-[16px] w-[370px] md:w-[465px] h-[60px] inline-flex items-center">
+                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">Door & Window Sensors</p>
+                  </div>
+                  <div className="border-b-[1px] border-solid border-b-[#c5c5c5] p-[16px] w-[370px] md:w-[465px] h-[60px] inline-flex items-center">
+                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">Doorbell Camera</p>
+                  </div>
+                  <div className="border-b-[1px] border-solid border-b-[#c5c5c5] p-[16px] w-[370px] md:w-[465px] h-[60px] inline-flex items-center">
+                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">Outside Camera</p>
+                  </div>
+                  <div className="border-b-[1px] border-solid border-b-[#c5c5c5] p-[16px] w-[370px] md:w-[465px] h-[60px] inline-flex items-center">
+                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">Smart Thermostat</p>
                   </div>
                   <div className="p-[16px] w-[370px] md:w-[465px] h-[60px] inline-flex items-center">
-                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">Digital Keypad with High Decibel Alarm</p>
+                    <p className="m-0 font-manrope font-bold text-[#454647] text-[16px] md:text-[18px] leading-[120%]">Automatic Doorlock</p>
                   </div>
                 </div>
               </div>
@@ -66,7 +68,7 @@ const Price = ({ bgprice }) => {
                     </p>
                   </div>
                   <div className="text-center pt-[9px] pb-[3px] px-[10px] w-[200px] md:w-[283px] border-[1px] border-solid border-adt-blue-light border-b-0 border-t-0">
-                    <p className="font-manrope font-extrabold text-adt-blue text-[16px] md:text-[20px] leading-[120%]">Premium Monitoring</p>
+                    <p className="font-manrope font-extrabold text-adt-blue text-[16px] md:text-[20px] leading-[120%]">Full Home Automation</p>
                   </div>
                   <div className="text-center w-[200px] md:w-[283px] border-[1px] border-solid border-adt-blue-light border-b-0 border-t-0 pt-[3px] pb-[21px] px-[10px] h-[105px] inline-flex justify-center items-center">
                     <Image src={PricingOne} alt="img" className="mx-auto" />
@@ -102,12 +104,12 @@ const Price = ({ bgprice }) => {
                     <Image src={BlueTick} alt="img" className="mx-auto" />
                   </div>
                   <div className="text-center w-[200px] md:w-[283px] pt-[10px] pb-[45px] px-[16px] border-[1px] border-solid border-adt-blue-light border-t-0 rounded-bl-[10px] rounded-br-[10px]">
-                    <Link
-                      href="/"
-                      className="inline-flex justify-center items-center font-manrope font-extrabold text-[18px] leading-[150%] text-white bg-adt-orange w-[165px] md:w-[215px] h-[52px] p-[16px] border-[1px] border-solid  hover:bg-adt-orange-600  hover:duration-300"
-                    >
-                      Shop Now
-                    </Link>
+                    <div className="hidden lg:flex lg:flex-1 justify-center">
+                      <a href="tel:18332247221" className="bg-adt-orange hover:bg-adt-orange-600 delay-75 flex gap-3 font-bold transition text-base md:text-lg text-white px-4 py-3">
+                        <PhoneIcon className="h-6 w-6" aria-hidden="true" />
+                        Call (833) 224-7221
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -115,7 +117,7 @@ const Price = ({ bgprice }) => {
                 <div className="price-col-three-inside">
                   <div className="h-[40px]"></div>
                   <div className="text-center pt-[35px] pb-[3px] px-[10px] w-[200px] md:w-[271px] border-[1px] border-solid border-[#c5c5c5] border-b-0 border-l-0 rounded-tr-[10px]">
-                    <p className="font-manrope font-extrabold text-adt-blue text-[16px] md:text-[20px] leading-[120%]">Complete Monitoring</p>
+                    <p className="font-manrope font-extrabold text-adt-blue text-[16px] md:text-[20px] leading-[120%]">Security + Survaliance</p>
                   </div>
                   <div className="text-center w-[200px] md:w-[271px] border-[1px] border-solid border-[#c5c5c5] border-b-0 border-t-0 border-l-0 pt-[3px] pb-[21px] px-[10px] h-[105px] inline-flex justify-center items-center">
                     <Image src={PricingTwo} alt="img" className="mx-auto" />
@@ -139,7 +141,7 @@ const Price = ({ bgprice }) => {
                     <Image src={BlueTick} alt="img" className="mx-auto" />
                   </div>
                   <div className="text-center w-[200px] md:w-[271px] border-[1px] border-solid border-[#c5c5c5] border-t-0 border-l-0 p-[16px]">
-                    <Image src={GreyTick} alt="img" className="mx-auto" />
+                    <Image src={BlueTick} alt="img" className="mx-auto" />
                   </div>
                   <div className="text-center w-[200px] md:w-[271px] border-[1px] border-solid border-[#c5c5c5] border-t-0 border-l-0 p-[16px]">
                     <Image src={BlueTick} alt="img" className="mx-auto" />
@@ -151,12 +153,12 @@ const Price = ({ bgprice }) => {
                     <Image src={GreyTick} alt="img" className="mx-auto" />
                   </div>
                   <div className="text-center w-[200px] md:w-[271px] pt-[10px] pb-[15px] px-[16px] border-[1px] border-solid border-[#c5c5c5] border-l-0 border-t-0 rounded-br-[10px]">
-                    <Link
-                      href="/"
-                      className="inline-flex justify-center items-center font-manrope font-extrabold text-[18px] leading-[150%] text-white bg-adt-orange w-[165px] md:w-[215px] h-[52px] p-[16px] border-[1px] border-solid  hover:bg-adt-orange-600  hover:duration-300"
-                    >
-                      Shop Now
-                    </Link>
+                    <div className="hidden lg:flex lg:flex-1 justify-center">
+                      <a href="tel:18332247221" className="bg-adt-orange hover:bg-adt-orange-600 delay-75 flex gap-3 font-bold transition text-base md:text-lg text-white px-4 py-3">
+                        <PhoneIcon className="h-6 w-6" aria-hidden="true" />
+                        Call (833) 224-7221
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -164,7 +166,7 @@ const Price = ({ bgprice }) => {
                 <div className="price-col-four-inside">
                   <div className="h-[40px]"></div>
                   <div className="text-center pt-[35px] pb-[3px] px-[10px] w-[200px] md:w-[280px] border-[1px] border-solid border-[#c5c5c5] border-b-0 border-l-0 rounded-tl-[10px] rounded-tr-[10px]">
-                    <p className="font-manrope font-extrabold text-adt-blue text-[16px] md:text-[20px] leading-[120%]">Remote Monitoring</p>
+                    <p className="font-manrope font-extrabold text-adt-blue text-[16px] md:text-[20px] leading-[120%]">Security</p>
                   </div>
                   <div className="text-center w-[200px] md:w-[280px] border-[1px] border-solid border-[#c5c5c5] border-b-0 border-t-0 border-l-0 pt-[3px] pb-[21px] px-[10px] h-[105px] inline-flex justify-center items-center">
                     <Image src={PricingThree} alt="img" className="mx-auto" />
@@ -182,16 +184,16 @@ const Price = ({ bgprice }) => {
                     <Image src={BlueTick} alt="img" className="mx-auto" />
                   </div>
                   <div className="text-center w-[200px] md:w-[280px] border-[1px] border-solid border-[#c5c5c5] border-t-0 border-l-0 p-[16px]">
-                    <Image src={GreyTick} alt="img" className="mx-auto" />
-                  </div>
-                  <div className="text-center w-[200px] md:w-[280px] border-[1px] border-solid border-[#c5c5c5] border-t-0 border-l-0 p-[16px]">
-                    <Image src={GreyTick} alt="img" className="mx-auto" />
-                  </div>
-                  <div className="text-center w-[200px] md:w-[280px] border-[1px] border-solid border-[#c5c5c5] border-t-0 border-l-0 p-[16px]">
                     <Image src={BlueTick} alt="img" className="mx-auto" />
                   </div>
                   <div className="text-center w-[200px] md:w-[280px] border-[1px] border-solid border-[#c5c5c5] border-t-0 border-l-0 p-[16px]">
                     <Image src={BlueTick} alt="img" className="mx-auto" />
+                  </div>
+                  <div className="text-center w-[200px] md:w-[280px] border-[1px] border-solid border-[#c5c5c5] border-t-0 border-l-0 p-[16px]">
+                    <Image src={GreyTick} alt="img" className="mx-auto" />
+                  </div>
+                  <div className="text-center w-[200px] md:w-[280px] border-[1px] border-solid border-[#c5c5c5] border-t-0 border-l-0 p-[16px]">
+                    <Image src={GreyTick} alt="img" className="mx-auto" />
                   </div>
                   <div className="text-center w-[200px] md:w-[280px] border-[1px] border-solid border-[#c5c5c5] border-t-0 border-l-0 p-[16px]">
                     <Image src={GreyTick} alt="img" className="mx-auto" />
@@ -200,12 +202,12 @@ const Price = ({ bgprice }) => {
                     <Image src={GreyTick} alt="img" className="mx-auto" />
                   </div>
                   <div className="text-center w-[200px] md:w-[280px] pt-[10px] pb-[15px] px-[16px] border-[1px] border-solid border-[#c5c5c5] border-l-0 border-t-0 rounded-bl-[10px] rounded-br-[10px]">
-                    <Link
-                      href="/"
-                      className="inline-flex justify-center items-center font-manrope font-extrabold text-[18px] leading-[150%] text-white bg-adt-orange w-[165px] md:w-[215px] h-[52px] p-[16px] border-[1px] border-solid hover:bg-adt-orange-600  hover:duration-300"
-                    >
-                      Shop Now
-                    </Link>
+                    <div className="hidden lg:flex lg:flex-1 justify-center">
+                      <a href="tel:18332247221" className="bg-adt-orange hover:bg-adt-orange-600 delay-75 flex gap-3 font-bold transition text-base md:text-lg text-white px-4 py-3">
+                        <PhoneIcon className="h-6 w-6" aria-hidden="true" />
+                        Call (833) 224-7221
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>

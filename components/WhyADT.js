@@ -3,8 +3,9 @@
 import Image from "next/image";
 import leftbg from "@/public/images/adtbg.jpg";
 import Link from "next/link";
+import CallButton from "./CallButton";
 const WhyADT = () => {
-  const listItems = ["Flexibility and choice, backed by ADT experience", "Rest easy with 24/7 ADT SMART Monitoring", "The right system to fit your home and life", "Security that goes beyond the home"];
+  const listItems = ["24/7 professional monitoring", "Smart cameras, sensors, and door locks", "Instant alerts via the ADT app", "Expert installation and support"];
   return (
     <div className="bg-adt-blue">
       <div className="grid md:grid-cols-2">
@@ -15,8 +16,8 @@ const WhyADT = () => {
           <div className="flex flex-col justify-center h-full w-full max-w-full xl:max-w-[530px]">
             <h2 className=" font-extrabold text-white text-[32px] md:text-[36px] lg:text-[40px] xl:text-[50px] leading-[120%] mb-[10px]">Why ADT?</h2>
             <p className=" font-regular text-[18px] leading-[28px] text-white mb-[20px] md:mb-[24px] lg:mb-[28px] xl:mb-[30px]">
-              Grounded in over 149 years of experience, ADT is one of the most trusted names in home security. ADT has helped protect more than 6 million customers in the US with 24/7 monitoring and fast emergency response times. On top of that, you can get
-              features that complement your on-the-go-lifestyle, so you’re always in the loop.
+              Choosing ADT means choosing a leader in home security with over 145 years of experience. ADT’s trusted solutions are designed to protect your home, loved ones, and property with cutting-edge technology and around-the-clock monitoring. With ADT,
+              you can have peace of mind knowing that your home is protected by a company that takes your safety seriously.
             </p>
             <ul className="flex flex-col gap-[14px] mb-[20px] md:mb-[24px] lg:mb-[28px] xl:mb-[30px]">
               {listItems.map((item, index) => (
@@ -28,13 +29,8 @@ const WhyADT = () => {
                 </li>
               ))}
             </ul>
-            <div>
-              <Link
-                href="/"
-                className="uppercase inline-block decoration-none bg-adt-orange outline-none text-white  font-extrabold text-[18px] leading-[27px] py-[12px] md:py-[14px] lg:py-[16px] xl:py-[14px] px-[24px] md:px-[38px] lg:px-[52px] xl:px-[66px] hover:bg-adt-orange-600 hover:duration-300"
-              >
-                read more
-              </Link>
+            <div className="flex justify-start">
+              <CallButton />
             </div>
           </div>
         </div>

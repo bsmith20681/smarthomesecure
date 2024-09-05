@@ -55,9 +55,12 @@ const ServiceArea = ({ city, state, nearbyCities }) => {
                   <h5 className="font-manrope font-extrabold text-special-blue text-[24px] leading-[30px] pb-4 m-0 text-center lg:text-start">Nearby Cities</h5>
                   <div className="nearby-cities-list">
                     <ul className="basis-[180px]  lg:basis-[260px] grid grid-cols-1 md:grid-cols-2 justify-between w-full">
-                      {nearbyCities.nearbyCities.slice(0, 18).map((location) => (
-                        <li className="basis-1/2  relative flex flex-row gap-1 after:absolute after:bg-[url('/images/pin.png')] after:bg-no-repeat after:bg-cover after:left-0 after:top-[50%] after:translate-y-[-50%] after:content-[''] after:z-10 after:h-[22px] after:w-[18px] pl-[25px] font-manrope font-regular text-black text-[18px] leading-[156%] mb-[10px]">
-                          <Link className="hover:underline" href={`/${location.state_name}/${location.city}`}>
+                      {nearbyCities.nearbyCities.slice(0, 18).map((location, index) => (
+                        <li
+                          key={index}
+                          className="basis-1/2  relative flex flex-row gap-1 after:absolute after:bg-[url('/images/pin.png')] after:bg-no-repeat after:bg-cover after:left-0 after:top-[50%] after:translate-y-[-50%] after:content-[''] after:z-10 after:h-[22px] after:w-[18px] pl-[25px] font-manrope font-regular text-black text-[18px] leading-[156%] mb-[10px]"
+                        >
+                          <Link className="hover:underline" href={`/${location.state_name.toLowerCase()}/${location.city.replace(/\s+/g, "-").toLowerCase()}`}>
                             {location.city}
                           </Link>
                         </li>

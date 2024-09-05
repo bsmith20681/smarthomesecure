@@ -17,7 +17,7 @@ const navigation = [
 
 const equipmentNavigation = [
   { name: "Cameras", href: "/cameras" },
-  { name: "Security Equipment", href: "/security" },
+  { name: "Security Equipment", href: "/home-security" },
   { name: "Smart Home Automation", href: "/home-automation" },
 ];
 
@@ -39,23 +39,23 @@ const Header = () => {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          {navigation.map((item) =>
+          {navigation.map((item, index) =>
             item.name === "Equipment" ? (
-              <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-                <Popover className="relative">
-                  <PopoverButton className="flex items-center gap-x-1 text-base md:text-lg text-gray-900 hover:text-slate-600">
+              <PopoverGroup key={`popoverGroup-${index}`} className="hidden lg:flex lg:gap-x-12">
+                <Popover key={`popover-${index}`} className="relative">
+                  <PopoverButton key={`popoverButton-${index}`} className="flex items-center gap-x-1 text-base md:text-lg text-gray-900 hover:text-slate-600">
                     Equipment
                     <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
                   </PopoverButton>
 
                   <Transition enter="transition ease-out duration-200" enterFrom="opacity-0 translate-y-1" enterTo="opacity-100 translate-y-0" leave="transition ease-in duration-150" leaveFrom="opacity-100 translate-y-0" leaveTo="opacity-0 translate-y-1">
-                    <PopoverPanel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-xs overflow-hidden rounded-sm bg-white shadow-lg ring-1 ring-gray-900/5">
+                    <PopoverPanel key={`popoverPanel-${index}`} className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-xs overflow-hidden rounded-sm bg-white shadow-lg ring-1 ring-gray-900/5">
                       <div className="p-4">
-                        {equipmentNavigation.map((item) => (
-                          <div key={item.name} className="group relative flex rounded-lg p-4 text-sm leading-6 ">
+                        {equipmentNavigation.map((equipmentItem, equipmentIndex) => (
+                          <div key={`equipment-${equipmentIndex}`} className="group relative flex rounded-lg p-4 text-sm leading-6">
                             <div className="flex-auto">
-                              <Link href={item.href} className="block text-base md:text-lg text-gray-900 hover:text-slate-600 transition delay-75">
-                                {item.name}
+                              <Link href={equipmentItem.href} className="block text-base md:text-lg text-gray-900 hover:text-slate-600 transition delay-75">
+                                {equipmentItem.name}
                                 <span className="absolute inset-0" />
                               </Link>
                             </div>
@@ -67,7 +67,7 @@ const Header = () => {
                 </Popover>
               </PopoverGroup>
             ) : (
-              <Link key={item.name} href={item.href} className="text-base md:text-lg hover:text-slate-600 transition delay-75">
+              <Link key={`link-${item.name}`} href={item.href} className="text-base md:text-lg hover:text-slate-600 transition delay-75">
                 {item.name}
               </Link>
             )
@@ -95,9 +95,9 @@ const Header = () => {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                {navigation.map((item) =>
+                {navigation.map((item, index) =>
                   item.name === "Equipment" ? (
-                    <Disclosure as="div" className="-mx-3">
+                    <Disclosure key={"dis" + index} as="div" className="-mx-3">
                       {({ open }) => (
                         <>
                           <DisclosureButton className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
@@ -105,8 +105,8 @@ const Header = () => {
                             <ChevronDownIcon className={`${open ? "rotate-180" : ""} h-5 w-5 flex-none`} aria-hidden="true" />
                           </DisclosureButton>
                           <DisclosurePanel className="mt-2 space-y-2">
-                            {equipmentNavigation.map((item) => (
-                              <DisclosureButton key={item.name} as="a" href={item.href} className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                            {equipmentNavigation.map((item, index) => (
+                              <DisclosureButton key={"equip" + index} as="a" href={item.href} className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                                 {item.name}
                               </DisclosureButton>
                             ))}
@@ -115,7 +115,7 @@ const Header = () => {
                       )}
                     </Disclosure>
                   ) : (
-                    <Link key={item.name} href={item.href} className="-mx-3 block rounded-lg px-3 py-2 text-bas">
+                    <Link key={"nav" + item.name} href={item.href} className="-mx-3 block rounded-lg px-3 py-2 text-bas">
                       {item.name}
                     </Link>
                   )

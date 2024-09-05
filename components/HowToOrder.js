@@ -28,10 +28,10 @@ const Order = ({ margintoporder, paddingtoporder, paddingbottomorder, margintopl
                   </div>
                   <div className="order-item-below">
                     <div className="order-item-title text-center mb-[10px]">
-                      <h2 className="font-manrope font-extrabold text-special-blue text-[24px] md:text-[30px] leading-[120%]">Shop</h2>
+                      <h2 className="font-manrope font-extrabold text-special-blue text-[24px] md:text-[30px] leading-[120%]">Call Us</h2>
                     </div>
                     <div className="order-item-text text-center max-w-[340px] mx-auto">
-                      <p className="font-manrope font-regular text-special-grey text-[18px] leading-[155%]">Find everything you need to make your home smarter and safer. </p>
+                      <p className="font-manrope font-regular text-special-grey text-[18px] leading-[155%]">Get in touch to start securing your home</p>
                     </div>
                   </div>
                 </div>
@@ -48,10 +48,10 @@ const Order = ({ margintoporder, paddingtoporder, paddingbottomorder, margintopl
                   </div>
                   <div className="order-item-below">
                     <div className="order-item-title text-center mb-[10px]">
-                      <h2 className="font-manrope font-extrabold text-special-blue text-[24px] md:text-[30px] leading-[120%]">Unpack</h2>
+                      <h2 className="font-manrope font-extrabold text-special-blue text-[24px] md:text-[30px] leading-[120%]">Customize Your Package</h2>
                     </div>
                     <div className="order-item-text text-center max-w-[340px] mx-auto">
-                      <p className="font-manrope font-regular text-special-grey text-[18px] leading-[155%]">Ready to go out of the box, with a single app to control everything. </p>
+                      <p className="font-manrope font-regular text-special-grey text-[18px] leading-[155%]">Speak with a rep to create your perfect security setup</p>
                     </div>
                   </div>
                 </div>
@@ -68,10 +68,10 @@ const Order = ({ margintoporder, paddingtoporder, paddingbottomorder, margintopl
                   </div>
                   <div className="order-item-below">
                     <div className="order-item-title text-center mb-[10px]">
-                      <h2 className="font-manrope font-extrabold text-special-blue text-[24px] md:text-[30px] leading-[120%]">Set Up</h2>
+                      <h2 className="font-manrope font-extrabold text-special-blue text-[24px] md:text-[30px] leading-[120%]">Professional Installation</h2>
                     </div>
                     <div className="order-item-text text-center max-w-[340px] mx-auto">
-                      <p className="font-manrope font-regular text-special-grey text-[18px] leading-[155%]">Set it up yourself or get help with live virtual assistance. </p>
+                      <p className="font-manrope font-regular text-special-grey text-[18px] leading-[155%]">A certified ADT technician will install your system for you</p>
                     </div>
                   </div>
                 </div>

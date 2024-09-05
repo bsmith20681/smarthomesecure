@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import CallButton from "./CallButton";
 
 const FeatureHighlight = ({ imgSrc, title, description, liLeft1, liLeft2, liRight1, liRight2, btnText, bgColor, imageDiv, dataDiv }) => {
   return (
@@ -31,12 +32,7 @@ const FeatureHighlight = ({ imgSrc, title, description, liLeft1, liLeft2, liRigh
               </ul>
             </div>
             <div className="max-lg:text-center">
-              <Link
-                href="/"
-                className="uppercase inline-block decoration-none bg-adt-orange hover:bg-adt-orange-600 outline-none text-white font-manrope font-extrabold text-[18px] leading-[27px] py-[10px] md:py-[12px] xl:py-[14px] px-[24px] md:px-[38px] lg:px-[52px] xl:px-[64px] hover:duration-300"
-              >
-                {btnText}
-              </Link>
+              <CallButton />
             </div>
           </div>
         </div>

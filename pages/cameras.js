@@ -64,13 +64,13 @@ const Cameras = () => {
         paddingbottomscreen={"lg:pb-0"}
         bldisplay={"hidden"}
         beadcrumbdisplay={"flex"}
-        bannertitle={`ADT Smart Security Cameras`}
-        bannertitlespan={""}
+        bannertitle={`ADT Smart`}
+        bannertitlespan={"Security Cameras"}
         bannertitleright={""}
         bannermaxwidth={"max-w-[550px]"}
         breadcrumb1={"Home"}
-        breadcrumb2={"Products"}
-        breadcrumb3={"Security Cameras"}
+        breadcrumb2={"Security Cameras"}
+        breadcrumb2Link={"/cameras"}
         bannersideimagedisplay={"hidden"}
       />
       <div className="py-[25px] even:bg-[#ecf7ff] main-div">
@@ -80,10 +80,10 @@ const Cameras = () => {
           title="Doorbell Camera"
           btnText="get a free quote"
           liLeft1="Intelligent alerts"
-          liLeft2="Live HD video with HDR"
+          liLeft2="Live HD video"
           liRight1="Talk and Listen"
           liRight2="Night vision"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
+          description="Keep your front door secure with the ADT Doorbell Camera. Get instant alerts, two-way audio, and HD video to see, hear, and speak to visitors from anywhere. Whether you're home or away, monitor packages and unexpected visitors with ease."
           imageDiv={0}
         />
         <FeatureHighlight
@@ -92,10 +92,10 @@ const Cameras = () => {
           title="Outdoor Camera"
           btnText="get a free quote"
           liLeft1="Intelligent alerts"
-          liLeft2="Live HD video with HDR"
+          liLeft2="Live HD video"
           liRight1="Talk and Listen"
           liRight2="Night vision"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
+          description="Protect the outside of your home with the ADT Outdoor Camera. Built for all-weather durability, this camera provides clear, HD footage day and night, with motion alerts and live viewing to keep an eye on your property 24/7."
           imageDiv={1}
         />
         <FeatureHighlight
@@ -104,10 +104,10 @@ const Cameras = () => {
           title="Indoor Camera"
           btnText="get a free quote"
           liLeft1="Intelligent alerts"
-          liLeft2="Live HD video with HDR"
+          liLeft2="Live HD video"
           liRight1="Talk and Listen"
           liRight2="Night vision"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
+          description="Stay connected with your home using the ADT Indoor Camera. With crystal-clear video and real-time notifications, you can monitor rooms inside your home, interact with family members, and receive alerts for any unexpected activity."
           imageDiv={0}
         />
       </div>
