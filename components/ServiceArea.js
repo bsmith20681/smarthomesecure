@@ -6,7 +6,7 @@ import serviceImgCenter from "@/public/images/service-img-center.png";
 
 import Link from "next/link";
 
-const ServiceArea = ({ city, state, nearbyCities }) => {
+const ServiceArea = ({ city, state, nearbyCities, targetCityZipCode }) => {
   return (
     <div className="service-main">
       <div className="container">
@@ -37,7 +37,7 @@ const ServiceArea = ({ city, state, nearbyCities }) => {
                   <div className="security-left pb-7 md:pb-0">
                     <h5 className="font-manrope font-extrabold text-special-blue text-[24px] leading-[30px] pb-4 m-0">ADT Security Services</h5>
                     <h6 className="font-regular text-special-blue text-[18px] font-manrope leading-[28px]">
-                      {city} {state} {nearbyCities.targetCityZipCode} United States
+                      {city} {state} {targetCityZipCode} United States
                     </h6>
                     <h6>
                       <Link href="tel:18332247221" className="font-regular text-special-blue text-[18px] font-manrope leading-[28px] hover:text-black">
@@ -55,7 +55,7 @@ const ServiceArea = ({ city, state, nearbyCities }) => {
                   <h5 className="font-manrope font-extrabold text-special-blue text-[24px] leading-[30px] pb-4 m-0 text-center lg:text-start">Nearby Cities</h5>
                   <div className="nearby-cities-list">
                     <ul className="basis-[180px]  lg:basis-[260px] grid grid-cols-1 md:grid-cols-2 justify-between w-full">
-                      {nearbyCities.nearbyCities.slice(0, 18).map((location, index) => (
+                      {nearbyCities.slice(0, 18).map((location, index) => (
                         <li
                           key={index}
                           className="basis-1/2  relative flex flex-row gap-1 after:absolute after:bg-[url('/images/pin.png')] after:bg-no-repeat after:bg-cover after:left-0 after:top-[50%] after:translate-y-[-50%] after:content-[''] after:z-10 after:h-[22px] after:w-[18px] pl-[25px] font-manrope font-regular text-black text-[18px] leading-[156%] mb-[10px]"

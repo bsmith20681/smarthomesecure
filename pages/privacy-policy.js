@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
             </span>
           </strong>
         </div>
-        <div>&nbsp;</div>
+        <div></div>
         <div>
           <span style={{ color: "#7f7f7f" }}>
             <strong>
@@ -21,17 +21,17 @@ const PrivacyPolicy = () => {
             </strong>
           </span>
         </div>
-        <div>&nbsp;</div>
-        <div>&nbsp;</div>
-        <div>&nbsp;</div>
+        <div></div>
+        <div></div>
+        <div></div>
         <div style={{ lineHeight: "1.5" }}>
           <span style={{ color: "#7f7f7f" }}>
             <span style={{ color: "#595959", fontSize: 15 }}>
               <span data-custom-class="body_text">
-                This Privacy Notice for SmartHomeSecure (<strong>we</strong>," <strong>us</strong>," or <strong>our</strong<
+                This Privacy Notice for SmartHomeSecure (<strong>we</strong>, <strong>us</strong>, or <strong>our</strong>
               </span>
               <span data-custom-class="body_text">
-                ), describes how and why we might access, collect, store, use, and/or share (<strong>process</strong<) your personal information when you use our services (<strong>Services</strong<), including when you:
+                ), describes how and why we might access, collect, store, use, and/or share (<strong>process</strong>) your personal information when you use our services (<strong>Services</strong>), including when you:
               </span>
             </span>
           </span>
@@ -58,7 +58,7 @@ const PrivacyPolicy = () => {
         </ul>
         <div>
           <div style={{ lineHeight: "1.5" }}>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <ul>
               <li style={{ lineHeight: "1.5" }} data-custom-class="body_text">
                 <span style={{ fontSize: 15, color: "#595959" }}>
@@ -72,14 +72,14 @@ const PrivacyPolicy = () => {
               <span style={{ fontSize: 15 }}>
                 <span style={{ color: "#7f7f7f" }}>
                   <span data-custom-class="body_text">
-                    <strong>Questions or concerns?&nbsp;</strong>Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree
-                    with our policies and practices, please do not use our Services.
+                    <strong>Questions or concerns?</strong>Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with
+                    our policies and practices, please do not use our Services.
                   </span>
                 </span>
               </span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <strong>
                 <span style={{ fontSize: 15 }}>
@@ -87,12 +87,12 @@ const PrivacyPolicy = () => {
                 </span>
               </strong>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
                   <strong>
-                    <em>This summary provides key points from our Privacy Notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our&nbsp;</em>
+                    <em>This summary provides key points from our Privacy Notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our</em>
                   </strong>
                 </span>
               </span>
@@ -108,17 +108,17 @@ const PrivacyPolicy = () => {
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
                   <strong>
-                    <em>&nbsp;below to find the section you are looking for.</em>
+                    <em>below to find the section you are looking for.</em>
                   </strong>
                 </span>
               </span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
                   <strong>What personal information do we process?</strong> When you visit, use, or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make, and the products and
-                  features you use. Learn more about&nbsp;
+                  features you use. Learn more about
                 </span>
               </span>
               <a href="#personalinfo" data-custom-class="link">
@@ -128,16 +128,17 @@ const PrivacyPolicy = () => {
               </a>
               <span data-custom-class="body_text">.</span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
-                  <strong>Do we process any sensitive personal information?&nbsp;</strong>
-                  Some of the information may be considered "special" or "sensitive" in certain jurisdictions, for example your racial or ethnic origins, sexual orientation, and religious beliefs. We do not process sensitive personal information.
+                  <strong>Do we process any sensitive personal information?</strong>
+                  Some of the information may be considered &quot;special&quot; or &quot;sensitive&quot; in certain jurisdictions, for example your racial or ethnic origins, sexual orientation, and religious beliefs. We do not process sensitive personal
+                  information.
                 </span>
               </span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
@@ -145,12 +146,12 @@ const PrivacyPolicy = () => {
                 </span>
               </span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
                   <strong>How do we process your information?</strong> We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your
-                  information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Learn more about&nbsp;
+                  information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Learn more about
                 </span>
               </span>
               <a href="#infouse" data-custom-class="link">
@@ -160,11 +161,11 @@ const PrivacyPolicy = () => {
               </a>
               <span data-custom-class="body_text">.</span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
-                  <strong>In what situations and with which parties do we share personal information?</strong> We may share information in specific situations and with specific third parties. Learn more about&nbsp;
+                  <strong>In what situations and with which parties do we share personal information?</strong> We may share information in specific situations and with specific third parties. Learn more about
                 </span>
               </span>
               <a href="#whoshare" data-custom-class="link">
@@ -176,11 +177,11 @@ const PrivacyPolicy = () => {
                 <span data-custom-class="body_text">.</span>
               </span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
-                  <strong>What are your rights?</strong> Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Learn more about&nbsp;
+                  <strong>What are your rights?</strong> Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Learn more about
                 </span>
               </span>
               <a href="#privacyrights" data-custom-class="link">
@@ -190,11 +191,11 @@ const PrivacyPolicy = () => {
               </a>
               <span data-custom-class="body_text">.</span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
-                  <strong>How do you exercise your rights?</strong> The easiest way to exercise your rights is by submitting a&nbsp;
+                  <strong>How do you exercise your rights?</strong> The easiest way to exercise your rights is by submitting a
                 </span>
               </span>
               <a href="https://app.termly.io/notify/153d05a2-3598-4171-b9fb-b8b9d6a6ce65" target="_blank" rel="noopener noreferrer" data-custom-class="link">
@@ -206,10 +207,10 @@ const PrivacyPolicy = () => {
                 <span data-custom-class="body_text">, or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.</span>
               </span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15 }}>
-                <span data-custom-class="body_text">Want to learn more about what we do with any information we collect?&nbsp;</span>
+                <span data-custom-class="body_text">Want to learn more about what we do with any information we collect?</span>
               </span>
               <a href="#toc" data-custom-class="link">
                 <span style={{ color: "#003afa", fontSize: 15 }}>
@@ -220,8 +221,8 @@ const PrivacyPolicy = () => {
                 <span data-custom-class="body_text">.</span>
               </span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div id="toc" style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15 }}>
                 <span style={{ color: "#7f7f7f" }}>
@@ -233,7 +234,7 @@ const PrivacyPolicy = () => {
                 </span>
               </span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15 }}>
                 <a href="#infocollect" data-custom-class="link">
@@ -271,7 +272,7 @@ const PrivacyPolicy = () => {
                 </a>
               </span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15 }}>
                 <a href="#inforetain" data-custom-class="link">
@@ -309,7 +310,7 @@ const PrivacyPolicy = () => {
                 </a>
               </span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15 }}>
                 <a href="#policyupdates" data-custom-class="link">
@@ -327,8 +328,8 @@ const PrivacyPolicy = () => {
                 <span style={{ color: "#003afa" }}>13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</span>
               </a>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div id="infocollect" style={{ lineHeight: "1.5" }}>
               <span style={{ color: "#000000" }}>
                 <span style={{ color: "#000000", fontSize: 15 }}>
@@ -344,7 +345,7 @@ const PrivacyPolicy = () => {
                 </span>
               </span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div id="personalinfo" style={{ lineHeight: "1.5" }}>
               <span style={{ color: "#000000" }} data-custom-class="heading_2">
                 <span style={{ fontSize: 15 }}>
@@ -353,7 +354,7 @@ const PrivacyPolicy = () => {
               </span>
             </div>
             <div>
-              <div>&nbsp;</div>
+              <div></div>
               <div style={{ lineHeight: "1.5" }}>
                 <span style={{ color: "#7f7f7f" }}>
                   <span style={{ color: "#595959", fontSize: 15 }}>
@@ -373,7 +374,7 @@ const PrivacyPolicy = () => {
                         <span style={{ fontSize: 15, color: "#595959" }}>
                           <span data-custom-class="body_text">
                             <strong>
-                              <em>&nbsp;</em>
+                              <em></em>
                             </strong>
                             <em>We collect personal information that you provide to us.</em>
                           </span>
@@ -384,7 +385,7 @@ const PrivacyPolicy = () => {
                 </span>
               </div>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15, color: "#595959" }}>
                 <span style={{ fontSize: 15, color: "#595959" }}>
@@ -393,8 +394,8 @@ const PrivacyPolicy = () => {
                 </span>
               </span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div id="sensitiveinfo" style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
@@ -402,8 +403,8 @@ const PrivacyPolicy = () => {
                 </span>
               </span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15, color: "#595959" }}>
                 <span style={{ fontSize: 15, color: "#595959" }}>
@@ -411,8 +412,8 @@ const PrivacyPolicy = () => {
                 </span>
               </span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ color: "#000000" }} data-custom-class="heading_2">
                 <span style={{ fontSize: 15 }}>
@@ -421,7 +422,7 @@ const PrivacyPolicy = () => {
               </span>
             </div>
             <div>
-              <div>&nbsp;</div>
+              <div></div>
               <div style={{ lineHeight: "1.5" }}>
                 <span style={{ color: "#7f7f7f" }}>
                   <span style={{ color: "#595959", fontSize: 15 }}>
@@ -441,7 +442,7 @@ const PrivacyPolicy = () => {
                         <span style={{ fontSize: 15, color: "#595959" }}>
                           <span data-custom-class="body_text">
                             <strong>
-                              <em>&nbsp;</em>
+                              <em></em>
                             </strong>
                             <em>Some information — such as your Internet Protocol (IP) address and/or browser and device characteristics — is collected automatically when you visit our Services.</em>
                           </span>
@@ -452,7 +453,7 @@ const PrivacyPolicy = () => {
                 </span>
               </div>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15, color: "#595959" }}>
                 <span style={{ fontSize: 15, color: "#595959" }}>
@@ -464,8 +465,8 @@ const PrivacyPolicy = () => {
                 </span>
               </span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15, color: "#595959" }}>
                 <span style={{ fontSize: 15, color: "#595959" }}>
@@ -480,14 +481,14 @@ const PrivacyPolicy = () => {
                     <span data-custom-class="body_text">
                       <em>Log and Usage Data.</em> Log and usage data is service-related, diagnostic, usage, and performance information our servers automatically collect when you access or use our Services and which we record in log files. Depending on how
                       you interact with us, this log data may include your IP address, device information, browser type, and settings and information about your activity in the Services
-                      <span style={{ fontSize: 15 }}>&nbsp;</span>(such as the date/time stamps associated with your usage, pages and files viewed, searches, and other actions you take such as which features you use), device event information (such as system
-                      activity, error reports (sometimes called "crash dumps"), and hardware settings).
+                      <span style={{ fontSize: 15 }}></span>(such as the date/time stamps associated with your usage, pages and files viewed, searches, and other actions you take such as which features you use), device event information (such as system
+                      activity, error reports (sometimes called &quot;crash dumps&quot;), and hardware settings).
                     </span>
                   </span>
                 </span>
               </li>
             </ul>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <ul>
               <li style={{ lineHeight: "1.5" }} data-custom-class="body_text">
                 <span style={{ fontSize: 15, color: "#595959" }}>
@@ -500,21 +501,21 @@ const PrivacyPolicy = () => {
                 </span>
               </li>
             </ul>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <ul>
               <li style={{ lineHeight: "1.5" }} data-custom-class="body_text">
                 <span style={{ fontSize: 15, color: "#595959" }}>
                   <span style={{ fontSize: 15, color: "#595959" }}>
                     <span data-custom-class="body_text">
-                      <em>Location Data.</em> We collect location data such as information about your device's location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access
-                      the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing
-                      access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services.
+                      <em>Location Data.</em> We collect location data such as information about your device&quot;s location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to
+                      access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by
+                      refusing access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services.
                     </span>
                   </span>
                 </span>
               </li>
             </ul>
-            <div>&nbsp;</div>
+            <div></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15 }}>
                 <strong>
@@ -523,11 +524,11 @@ const PrivacyPolicy = () => {
               </span>
             </div>
             <div style={{ lineHeight: "1.5" }}>
-              <span style={{ fontSize: 15 }}>&nbsp;</span>
+              <span style={{ fontSize: 15 }}></span>
             </div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15 }}>
-                <span data-custom-class="body_text">Our use of information received from Google APIs will adhere to&nbsp;</span>
+                <span data-custom-class="body_text">Our use of information received from Google APIs will adhere to</span>
               </span>
               <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener noreferrer" data-custom-class="link">
                 <span style={{ color: "#003afa", fontSize: 15 }}>
@@ -535,7 +536,7 @@ const PrivacyPolicy = () => {
                 </span>
               </a>
               <span style={{ fontSize: 15 }}>
-                <span data-custom-class="body_text">, including the&nbsp;</span>
+                <span data-custom-class="body_text">, including the</span>
               </span>
               <a href="https://developers.google.com/terms/api-services-user-data-policy#limited-use" target="_blank" rel="noopener noreferrer" data-custom-class="link">
                 <span style={{ color: "#003afa", fontSize: 15 }}>
@@ -548,10 +549,10 @@ const PrivacyPolicy = () => {
               </span>
             </div>
             <div>
-              <span style={{ fontSize: 15 }}>&nbsp;</span>
+              <span style={{ fontSize: 15 }}></span>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div id="infouse" style={{ lineHeight: "1.5" }}>
               <span style={{ color: "#7f7f7f" }}>
                 <span style={{ color: "#595959", fontSize: 15 }}>
@@ -568,7 +569,7 @@ const PrivacyPolicy = () => {
               </span>
             </div>
             <div>
-              <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+              <div style={{ lineHeight: "1.5" }}></div>
               <div style={{ lineHeight: "1.5" }}>
                 <span style={{ color: "#7f7f7f" }}>
                   <span style={{ color: "#595959", fontSize: 15 }}>
@@ -577,7 +578,7 @@ const PrivacyPolicy = () => {
                         <span style={{ fontSize: 15, color: "#595959" }}>
                           <span data-custom-class="body_text">
                             <strong>
-                              <em>In Short:&nbsp;</em>
+                              <em>In Short:</em>
                             </strong>
                             <em>
                               We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your
@@ -591,7 +592,7 @@ const PrivacyPolicy = () => {
                 </span>
               </div>
             </div>
-            <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+            <div style={{ lineHeight: "1.5" }}></div>
             <div style={{ lineHeight: "1.5" }}>
               <span style={{ fontSize: 15, color: "#595959" }}>
                 <span style={{ fontSize: 15, color: "#595959" }}>
@@ -608,17 +609,18 @@ const PrivacyPolicy = () => {
                         <div style={{ lineHeight: "1.5" }}>
                           <div style={{ lineHeight: "1.5" }}>
                             <div style={{ lineHeight: "1.5" }}>
-                              <p style={{ fontSize: 15, lineHeight: "1.5" }}>&nbsp;</p>
-                              <p style={{ fontSize: 15, lineHeight: "1.5" }}>&nbsp;</p>
-                              <p style={{ fontSize: 15, lineHeight: "1.5" }}>&nbsp;</p>
-                              <p style={{ fontSize: 15, lineHeight: "1.5" }}>&nbsp;</p>
-                              <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+                              <p style={{ fontSize: 15, lineHeight: "1.5" }}></p>
+                              <p style={{ fontSize: 15, lineHeight: "1.5" }}></p>
+                              <p style={{ fontSize: 15, lineHeight: "1.5" }}></p>
+                              <p style={{ fontSize: 15, lineHeight: "1.5" }}></p>
+                              <div style={{ lineHeight: "1.5" }}></div>
                               <ul>
                                 <li style={{ lineHeight: "1.5" }} data-custom-class="body_text">
                                   <span style={{ fontSize: 15 }}>
                                     <span data-custom-class="body_text">
-                                      <strong>To send you marketing and promotional communications.&nbsp;</strong>
-                                      We may process the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. You can opt out of our marketing emails at any time. For more information, see "
+                                      <strong>To send you marketing and promotional communications.</strong>
+                                      We may process the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. You can opt out of our marketing emails at any time. For more information, see
+                                      &quot;
                                     </span>
                                   </span>
                                   <a href="#privacyrights">
@@ -629,7 +631,7 @@ const PrivacyPolicy = () => {
                                     </span>
                                   </a>
                                   <span style={{ fontSize: 15 }}>
-                                    <span data-custom-class="body_text"< below.</span>
+                                    <span data-custom-class="body_text"> below.</span>
                                   </span>
                                 </li>
                               </ul>
@@ -643,7 +645,7 @@ const PrivacyPolicy = () => {
                                             <div style={{ lineHeight: "1.5" }}>
                                               <div style={{ lineHeight: "1.5" }}>
                                                 <div style={{ lineHeight: "1.5" }}>
-                                                  <div style={{ lineHeight: "1.5" }}>&nbsp;</div>
+                                                  <div style={{ lineHeight: "1.5" }}></div>
                                                   <ul>
                                                     <li style={{ lineHeight: "1.5" }} data-custom-class="body_text">
                                                       <span style={{ fontSize: 15 }}>
@@ -661,16 +663,12 @@ const PrivacyPolicy = () => {
                                                           style={{
                                                             lineHeight: "1.5",
                                                           }}
-                                                        >
-                                                          &nbsp;
-                                                        </div>
+                                                        ></div>
                                                         <div
                                                           style={{
                                                             lineHeight: "1.5",
                                                           }}
-                                                        >
-                                                          &nbsp;
-                                                        </div>
+                                                        ></div>
                                                         <div
                                                           id="whoshare"
                                                           style={{
@@ -719,9 +717,7 @@ const PrivacyPolicy = () => {
                                                           style={{
                                                             lineHeight: "1.5",
                                                           }}
-                                                        >
-                                                          &nbsp;
-                                                        </div>
+                                                        ></div>
                                                         <div
                                                           style={{
                                                             lineHeight: "1.5",
@@ -743,7 +739,7 @@ const PrivacyPolicy = () => {
                                                                 <strong>
                                                                   <em>In Short:</em>
                                                                 </strong>
-                                                                <em>&nbsp;We may share information in specific situations described in this section and/or with the following third parties.</em>
+                                                                <em>We may share information in specific situations described in this section and/or with the following third parties.</em>
                                                               </span>
                                                             </span>
                                                           </span>
@@ -752,16 +748,12 @@ const PrivacyPolicy = () => {
                                                           style={{
                                                             lineHeight: "1.5",
                                                           }}
-                                                        >
-                                                          &nbsp;
-                                                        </div>
+                                                        ></div>
                                                         <div
                                                           style={{
                                                             lineHeight: "1.5",
                                                           }}
-                                                        >
-                                                          &nbsp;
-                                                        </div>
+                                                        ></div>
                                                         <div
                                                           style={{
                                                             lineHeight: "1.5",
@@ -795,9 +787,7 @@ const PrivacyPolicy = () => {
                                                             style={{
                                                               lineHeight: "1.5",
                                                             }}
-                                                          >
-                                                            &nbsp;
-                                                          </div>
+                                                          ></div>
                                                           <ul>
                                                             <li
                                                               style={{
@@ -811,7 +801,7 @@ const PrivacyPolicy = () => {
                                                                 }}
                                                               >
                                                                 <span data-custom-class="body_text">
-                                                                  <strong>Affiliates.&nbsp;</strong>
+                                                                  <strong>Affiliates.</strong>
                                                                   We may share your information with our affiliates, in which case we will require those affiliates to honor this Privacy Notice. Affiliates include our parent company and any subsidiaries, joint
                                                                   venture partners, or other companies that we control or that are under common control with us.
                                                                 </span>
@@ -822,9 +812,7 @@ const PrivacyPolicy = () => {
                                                             style={{
                                                               lineHeight: "1.5",
                                                             }}
-                                                          >
-                                                            &nbsp;
-                                                          </div>
+                                                          ></div>
                                                           <ul>
                                                             <li
                                                               style={{
@@ -857,16 +845,12 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -887,9 +871,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -905,8 +887,7 @@ const PrivacyPolicy = () => {
                                                                       <em>In Short:</em>
                                                                     </strong>
                                                                     <em>
-                                                                      &nbsp;We are not responsible for the safety of any information that you share with third parties that we may link to or who advertise on our Services, but are not affiliated with, our
-                                                                      Services.
+                                                                      We are not responsible for the safety of any information that you share with third parties that we may link to or who advertise on our Services, but are not affiliated with, our Services.
                                                                     </em>
                                                                   </span>
                                                                 </span>
@@ -915,9 +896,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -942,9 +921,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 id="cookies"
                                                                 style={{
@@ -993,9 +970,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -1017,7 +992,7 @@ const PrivacyPolicy = () => {
                                                                       <strong>
                                                                         <em>In Short:</em>
                                                                       </strong>
-                                                                      <em>&nbsp;We may use cookies and other tracking technologies to collect and store your information.</em>
+                                                                      <em>We may use cookies and other tracking technologies to collect and store your information.</em>
                                                                     </span>
                                                                   </span>
                                                                 </span>
@@ -1026,9 +1001,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -1057,9 +1030,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -1094,9 +1065,7 @@ const PrivacyPolicy = () => {
                                                                   style={{
                                                                     fontSize: 15,
                                                                   }}
-                                                                >
-                                                                  &nbsp;
-                                                                </span>
+                                                                ></span>
                                                               </div>
                                                               <div
                                                                 style={{
@@ -1109,8 +1078,8 @@ const PrivacyPolicy = () => {
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
-                                                                    To the extent these online tracking technologies are deemed to be a "sale"/"sharing" (which includes targeted advertising, as defined under the applicable laws) under applicable US state laws,
-                                                                    you can opt out of these online tracking technologies by submitting a request as described below under section "
+                                                                    To the extent these online tracking technologies are deemed to be a &quot;sale&quot;/&quot;sharing&quot; (which includes targeted advertising, as defined under the applicable laws) under
+                                                                    applicable US state laws, you can opt out of these online tracking technologies by submitting a request as described below under section &quot;
                                                                   </span>
                                                                 </span>
                                                                 <span data-custom-class="body_text">
@@ -1137,9 +1106,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -1180,9 +1147,7 @@ const PrivacyPolicy = () => {
                                                                   style={{
                                                                     fontSize: 15,
                                                                   }}
-                                                                >
-                                                                  &nbsp;
-                                                                </span>
+                                                                ></span>
                                                               </div>
                                                               <div
                                                                 style={{
@@ -1208,9 +1173,7 @@ const PrivacyPolicy = () => {
                                                                   style={{
                                                                     fontSize: 15,
                                                                   }}
-                                                                >
-                                                                  &nbsp;
-                                                                </span>
+                                                                ></span>
                                                               </div>
                                                               <div
                                                                 style={{
@@ -1289,9 +1252,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 id="inforetain"
                                                                 style={{
@@ -1340,9 +1301,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -1362,7 +1321,7 @@ const PrivacyPolicy = () => {
                                                                   >
                                                                     <span data-custom-class="body_text">
                                                                       <strong>
-                                                                        <em>In Short:&nbsp;</em>
+                                                                        <em>In Short:</em>
                                                                       </strong>
                                                                       <em>We keep your information for as long as necessary to fulfill the purposes outlined in this Privacy Notice unless otherwise required by law.</em>
                                                                     </span>
@@ -1373,9 +1332,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -1404,9 +1361,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -1435,9 +1390,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 id="infominors"
                                                                 style={{
@@ -1486,9 +1439,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -1510,7 +1461,7 @@ const PrivacyPolicy = () => {
                                                                       <strong>
                                                                         <em>In Short:</em>
                                                                       </strong>
-                                                                      <em>&nbsp;We do not knowingly collect data from or market to children under 18 years of age.</em>
+                                                                      <em>We do not knowingly collect data from or market to children under 18 years of age.</em>
                                                                     </span>
                                                                   </span>
                                                                 </span>
@@ -1519,9 +1470,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -1561,9 +1510,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 id="privacyrights"
                                                                 style={{
@@ -1612,9 +1559,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -1637,14 +1582,11 @@ const PrivacyPolicy = () => {
                                                                         <em>In Short:</em>
                                                                       </strong>
                                                                       <em>
-                                                                        &nbsp;
                                                                         <span
                                                                           style={{
                                                                             color: "#595959",
                                                                           }}
-                                                                        >
-                                                                          &nbsp;
-                                                                        </span>
+                                                                        ></span>
                                                                         You may review, change, or terminate your account at any time, depending on your country, province, or state of residence.
                                                                       </em>
                                                                     </span>
@@ -1655,9 +1597,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 id="withdrawconsent"
                                                                 style={{
@@ -1681,7 +1621,7 @@ const PrivacyPolicy = () => {
                                                                         <u>Withdrawing your consent:</u>
                                                                       </strong>{" "}
                                                                       If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your
-                                                                      consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section "
+                                                                      consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section &quot;
                                                                     </span>
                                                                   </span>
                                                                 </span>
@@ -1714,7 +1654,7 @@ const PrivacyPolicy = () => {
                                                                       color: "#595959",
                                                                     }}
                                                                   >
-                                                                    <span data-custom-class="body_text"< below.</span>
+                                                                    <span data-custom-class="body_text"> below.</span>
                                                                   </span>
                                                                 </span>
                                                               </div>
@@ -1722,9 +1662,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -1745,9 +1683,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -1762,9 +1698,9 @@ const PrivacyPolicy = () => {
                                                                     <strong>
                                                                       <u>Opting out of marketing and promotional communications:</u>
                                                                     </strong>
-                                                                    <strong>&nbsp;</strong>
+                                                                    <strong></strong>
                                                                     You can unsubscribe from our marketing and promotional communications at any time by clicking on the unsubscribe link in the emails that we send, or by contacting us using the details provided
-                                                                    in the section "
+                                                                    in the section &quot;
                                                                   </span>
                                                                 </span>
                                                                 <a href="#contact" data-custom-class="link">
@@ -1783,7 +1719,7 @@ const PrivacyPolicy = () => {
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
-                                                                    " below. You will then be removed from the marketing lists. However, we may still communicate with you — for example, to send you service-related messages that are necessary for the
+                                                                    &quot; below. You will then be removed from the marketing lists. However, we may still communicate with you — for example, to send you service-related messages that are necessary for the
                                                                     administration and use of your account, to respond to service requests, or for other non-marketing purposes.
                                                                   </span>
                                                                 </span>
@@ -1792,9 +1728,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 id="DNT"
                                                                 style={{
@@ -1843,9 +1777,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -1864,10 +1796,10 @@ const PrivacyPolicy = () => {
                                                                     }}
                                                                   >
                                                                     <span data-custom-class="body_text">
-                                                                      Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track ("DNT") feature or setting you can activate to signal your privacy preference not to have
-                                                                      data about your online browsing activities monitored and collected. At this stage, no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we
-                                                                      do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that
-                                                                      we must follow in the future, we will inform you about that practice in a revised version of this Privacy Notice.
+                                                                      Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (&quot;DNT&quot;) feature or setting you can activate to signal your privacy preference not
+                                                                      to have data about your online browsing activities monitored and collected. At this stage, no uniform technology standard for recognizing and implementing DNT signals has been finalized. As
+                                                                      such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is
+                                                                      adopted that we must follow in the future, we will inform you about that practice in a revised version of this Privacy Notice.
                                                                     </span>
                                                                   </span>
                                                                 </span>
@@ -1881,9 +1813,7 @@ const PrivacyPolicy = () => {
                                                                   style={{
                                                                     fontSize: 15,
                                                                   }}
-                                                                >
-                                                                  &nbsp;
-                                                                </span>
+                                                                ></span>
                                                               </div>
                                                               <div
                                                                 style={{
@@ -1905,16 +1835,12 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 id="uslaws"
                                                                 style={{
@@ -1963,9 +1889,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -1985,7 +1909,7 @@ const PrivacyPolicy = () => {
                                                                   >
                                                                     <span data-custom-class="body_text">
                                                                       <strong>
-                                                                        <em>In Short:&nbsp;</em>
+                                                                        <em>In Short:</em>
                                                                       </strong>
                                                                       <em>
                                                                         If you are a resident of California, Colorado, Connecticut, Delaware, Florida, Indiana, Iowa, Kentucky, Montana, New Hampshire, New Jersey, Oregon, Tennessee, Texas, Utah, or Virginia, you
@@ -2001,9 +1925,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -2031,9 +1953,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -2059,9 +1979,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <table
                                                                 style={{
                                                                   width: "100%",
@@ -2223,9 +2141,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                       <div
                                                                         style={{
                                                                           lineHeight: "1.5",
@@ -2251,9 +2167,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                     </td>
                                                                   </tr>
                                                                 </tbody>
@@ -2262,9 +2176,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <table
                                                                 style={{
                                                                   width: "100%",
@@ -2343,9 +2255,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                       <div
                                                                         style={{
                                                                           lineHeight: "1.5",
@@ -2371,9 +2281,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                     </td>
                                                                   </tr>
                                                                 </tbody>
@@ -2382,9 +2290,7 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <table
                                                                 style={{
                                                                   width: "100%",
@@ -2463,9 +2369,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                       <div
                                                                         style={{
                                                                           lineHeight: "1.5",
@@ -2478,9 +2382,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                     </td>
                                                                   </tr>
                                                                   <tr>
@@ -2555,9 +2457,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                       <div
                                                                         style={{
                                                                           lineHeight: "1.5",
@@ -2570,9 +2470,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                     </td>
                                                                   </tr>
                                                                   <tr>
@@ -2647,9 +2545,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                       <div
                                                                         style={{
                                                                           lineHeight: "1.5",
@@ -2662,9 +2558,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                     </td>
                                                                   </tr>
                                                                   <tr>
@@ -2741,9 +2635,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                       <div
                                                                         style={{
                                                                           lineHeight: "1.5",
@@ -2756,9 +2648,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                     </td>
                                                                   </tr>
                                                                   <tr>
@@ -2833,9 +2723,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                       <div
                                                                         style={{
                                                                           lineHeight: "1.5",
@@ -2848,9 +2736,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                     </td>
                                                                   </tr>
                                                                   <tr>
@@ -2925,9 +2811,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                       <div
                                                                         style={{
                                                                           lineHeight: "1.5",
@@ -2940,9 +2824,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                     </td>
                                                                   </tr>
                                                                   <tr>
@@ -3019,9 +2901,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                       <div
                                                                         style={{
                                                                           lineHeight: "1.5",
@@ -3034,9 +2914,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                     </td>
                                                                   </tr>
                                                                   <tr>
@@ -3111,9 +2989,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                       <div
                                                                         style={{
                                                                           lineHeight: "1.5",
@@ -3126,9 +3002,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                     </td>
                                                                   </tr>
                                                                   <tr>
@@ -3205,9 +3079,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                       <div
                                                                         style={{
                                                                           lineHeight: "1.5",
@@ -3220,9 +3092,7 @@ const PrivacyPolicy = () => {
                                                                         style={{
                                                                           lineHeight: "1.5",
                                                                         }}
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                     </td>
                                                                   </tr>
                                                                   <tr>
@@ -3242,9 +3112,7 @@ const PrivacyPolicy = () => {
                                                                         borderBottom: "1px solid black",
                                                                         lineHeight: "1.5",
                                                                       }}
-                                                                    >
-                                                                      &nbsp;
-                                                                    </td>
+                                                                    ></td>
                                                                     <td
                                                                       style={{
                                                                         borderRight: "1px solid black",
@@ -3256,9 +3124,7 @@ const PrivacyPolicy = () => {
                                                                           textAlign: "center",
                                                                         }}
                                                                         data-empty="true"
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                       <div
                                                                         style={{
                                                                           textAlign: "center",
@@ -3274,9 +3140,7 @@ const PrivacyPolicy = () => {
                                                                           textAlign: "center",
                                                                         }}
                                                                         data-empty="true"
-                                                                      >
-                                                                        &nbsp;
-                                                                      </div>
+                                                                      ></div>
                                                                     </td>
                                                                   </tr>
                                                                 </tbody>
@@ -3285,16 +3149,12 @@ const PrivacyPolicy = () => {
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
                                                                 }}
-                                                              >
-                                                                &nbsp;
-                                                              </div>
+                                                              ></div>
                                                               <div
                                                                 style={{
                                                                   lineHeight: "1.5",
@@ -3326,7 +3186,7 @@ const PrivacyPolicy = () => {
                                                                   </span>
                                                                 </li>
                                                               </ul>
-                                                              <div>&nbsp;</div>
+                                                              <div></div>
                                                               <ul>
                                                                 <li data-custom-class="body_text">
                                                                   <span
@@ -3338,7 +3198,7 @@ const PrivacyPolicy = () => {
                                                                   </span>
                                                                 </li>
                                                               </ul>
-                                                              <div>&nbsp;</div>
+                                                              <div></div>
                                                               <ul>
                                                                 <li data-custom-class="body_text">
                                                                   <span
@@ -3385,9 +3245,7 @@ const PrivacyPolicy = () => {
                                                                             style={{
                                                                               lineHeight: "1.5",
                                                                             }}
-                                                                          >
-                                                                            &nbsp;
-                                                                          </div>
+                                                                          ></div>
                                                                           <ul>
                                                                             <li
                                                                               style={{
@@ -3442,9 +3300,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -3481,9 +3337,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -3511,9 +3365,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -3525,7 +3377,7 @@ const PrivacyPolicy = () => {
                                                                                         }}
                                                                                         data-custom-class="body_text"
                                                                                       >
-                                                                                        Learn about how we use your personal information in the section, "
+                                                                                        Learn about how we use your personal information in the section, &quot;
                                                                                       </span>
                                                                                       <a href="#infouse" data-custom-class="link">
                                                                                         <span
@@ -3543,23 +3395,19 @@ const PrivacyPolicy = () => {
                                                                                         }}
                                                                                         data-custom-class="body_text"
                                                                                       >
-                                                                                        "
+                                                                                        &quot;
                                                                                       </span>
                                                                                     </div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -3587,9 +3435,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -3609,7 +3455,7 @@ const PrivacyPolicy = () => {
                                                                                         >
                                                                                           <span data-custom-class="body_text">
                                                                                             We may disclose your personal information with our service providers pursuant to a written contract between us and each service provider. Learn more about how we
-                                                                                            disclose personal information to in the section, "
+                                                                                            disclose personal information to in the section, &quot;
                                                                                           </span>
                                                                                         </span>
                                                                                       </span>
@@ -3650,9 +3496,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -3672,7 +3516,7 @@ const PrivacyPolicy = () => {
                                                                                         >
                                                                                           <span data-custom-class="body_text">
                                                                                             We may use your personal information for our own business purposes, such as for undertaking internal research for technological development and demonstration. This is
-                                                                                            not considered to be "selling" of your personal information.
+                                                                                            not considered to be &quot;selling&quot; of your personal information.
                                                                                           </span>
                                                                                         </span>
                                                                                       </span>
@@ -3681,9 +3525,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -3707,9 +3549,7 @@ const PrivacyPolicy = () => {
                                                                                               style={{
                                                                                                 color: "#595959",
                                                                                               }}
-                                                                                            >
-                                                                                              &nbsp;
-                                                                                            </span>
+                                                                                            ></span>
                                                                                             will not sell or share personal information in the future belonging to website visitors, users, and other consumers.
                                                                                           </span>
                                                                                         </span>
@@ -3719,9 +3559,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -3746,9 +3584,7 @@ const PrivacyPolicy = () => {
                                                                                         style={{
                                                                                           fontSize: 15,
                                                                                         }}
-                                                                                      >
-                                                                                        &nbsp;
-                                                                                      </span>
+                                                                                      ></span>
                                                                                     </div>
                                                                                     <div
                                                                                       style={{
@@ -3786,9 +3622,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <ul>
                                                                                       <li
                                                                                         style={{
@@ -3801,7 +3635,7 @@ const PrivacyPolicy = () => {
                                                                                             fontSize: 15,
                                                                                           }}
                                                                                         >
-                                                                                          <strong>Right to access&nbsp;</strong>
+                                                                                          <strong>Right to access</strong>
                                                                                           your personal data
                                                                                         </span>
                                                                                       </li>
@@ -3810,9 +3644,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <ul>
                                                                                       <li
                                                                                         style={{
@@ -3825,7 +3657,7 @@ const PrivacyPolicy = () => {
                                                                                             fontSize: 15,
                                                                                           }}
                                                                                         >
-                                                                                          <strong>Right to correct&nbsp;</strong>
+                                                                                          <strong>Right to correct</strong>
                                                                                           inaccuracies in your personal data
                                                                                         </span>
                                                                                       </li>
@@ -3834,9 +3666,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <ul>
                                                                                       <li
                                                                                         style={{
@@ -3857,9 +3687,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <ul>
                                                                                       <li
                                                                                         style={{
@@ -3872,7 +3700,7 @@ const PrivacyPolicy = () => {
                                                                                             fontSize: 15,
                                                                                           }}
                                                                                         >
-                                                                                          <strong>Right to obtain a copy&nbsp;</strong>
+                                                                                          <strong>Right to obtain a copy</strong>
                                                                                           of the personal data you previously shared with us
                                                                                         </span>
                                                                                       </li>
@@ -3881,9 +3709,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <ul>
                                                                                       <li
                                                                                         style={{
@@ -3904,9 +3730,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <ul>
                                                                                       <li
                                                                                         style={{
@@ -3920,7 +3744,7 @@ const PrivacyPolicy = () => {
                                                                                           }}
                                                                                         >
                                                                                           <strong>Right to opt out</strong> of the processing of your personal data if it is used for targeted advertising (or sharing as defined under California’s privacy law),
-                                                                                          the sale of personal data, or profiling in furtherance of decisions that produce legal or similarly significant effects ("profiling")
+                                                                                          the sale of personal data, or profiling in furtherance of decisions that produce legal or similarly significant effects (&quot;profiling&quot;)
                                                                                         </span>
                                                                                       </li>
                                                                                     </ul>
@@ -3928,9 +3752,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -3956,8 +3778,8 @@ const PrivacyPolicy = () => {
                                                                                             fontSize: 15,
                                                                                           }}
                                                                                         >
-                                                                                          Right to obtain a list of the categories of third parties to which we have disclosed personal data (as permitted by applicable law, including California's and Delaware's
-                                                                                          privacy law)
+                                                                                          Right to obtain a list of the categories of third parties to which we have disclosed personal data (as permitted by applicable law, including California&quot;s and
+                                                                                          Delaware&quot;s privacy law)
                                                                                         </span>
                                                                                       </li>
                                                                                     </ul>
@@ -3965,9 +3787,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <ul>
                                                                                       <li
                                                                                         style={{
@@ -3988,9 +3808,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <ul>
                                                                                       <li
                                                                                         style={{
@@ -4011,9 +3829,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <ul>
                                                                                       <li
                                                                                         style={{
@@ -4035,9 +3851,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -4057,9 +3871,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -4077,7 +3889,7 @@ const PrivacyPolicy = () => {
                                                                                             color: "#595959",
                                                                                           }}
                                                                                         >
-                                                                                          <span data-custom-class="body_text">To exercise these rights, you can contact us by submitting a&nbsp;</span>
+                                                                                          <span data-custom-class="body_text">To exercise these rights, you can contact us by submitting a</span>
                                                                                         </span>
                                                                                       </span>
                                                                                       <a href="https://app.termly.io/notify/153d05a2-3598-4171-b9fb-b8b9d6a6ce65" target="_blank" rel="noopener noreferrer" data-custom-class="link">
@@ -4135,9 +3947,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -4159,9 +3969,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -4186,9 +3994,7 @@ const PrivacyPolicy = () => {
                                                                                         style={{
                                                                                           fontSize: 15,
                                                                                         }}
-                                                                                      >
-                                                                                        &nbsp;
-                                                                                      </span>
+                                                                                      ></span>
                                                                                     </div>
                                                                                     <div
                                                                                       style={{
@@ -4217,9 +4023,7 @@ const PrivacyPolicy = () => {
                                                                                         style={{
                                                                                           fontSize: 15,
                                                                                         }}
-                                                                                      >
-                                                                                        &nbsp;
-                                                                                      </span>
+                                                                                      ></span>
                                                                                     </div>
                                                                                     <div
                                                                                       style={{
@@ -4246,9 +4050,7 @@ const PrivacyPolicy = () => {
                                                                                         style={{
                                                                                           fontSize: 15,
                                                                                         }}
-                                                                                      >
-                                                                                        &nbsp;
-                                                                                      </span>
+                                                                                      ></span>
                                                                                     </div>
                                                                                     <div
                                                                                       style={{
@@ -4274,9 +4076,7 @@ const PrivacyPolicy = () => {
                                                                                         style={{
                                                                                           fontSize: 15,
                                                                                         }}
-                                                                                      >
-                                                                                        &nbsp;
-                                                                                      </span>
+                                                                                      ></span>
                                                                                     </div>
                                                                                     <div
                                                                                       style={{
@@ -4304,9 +4104,7 @@ const PrivacyPolicy = () => {
                                                                                         style={{
                                                                                           fontSize: 15,
                                                                                         }}
-                                                                                      >
-                                                                                        &nbsp;
-                                                                                      </span>
+                                                                                      ></span>
                                                                                     </div>
                                                                                     <div
                                                                                       style={{
@@ -4319,7 +4117,7 @@ const PrivacyPolicy = () => {
                                                                                         }}
                                                                                       >
                                                                                         <strong>
-                                                                                          <span data-custom-class="heading_2">California "Shine The Light" Law</span>
+                                                                                          <span data-custom-class="heading_2">California &quot;Shine The Light&quot; Law</span>
                                                                                         </strong>
                                                                                       </span>
                                                                                     </div>
@@ -4332,9 +4130,7 @@ const PrivacyPolicy = () => {
                                                                                         style={{
                                                                                           fontSize: 15,
                                                                                         }}
-                                                                                      >
-                                                                                        &nbsp;
-                                                                                      </span>
+                                                                                      ></span>
                                                                                     </div>
                                                                                     <div
                                                                                       style={{
@@ -4347,10 +4143,10 @@ const PrivacyPolicy = () => {
                                                                                         }}
                                                                                       >
                                                                                         <span data-custom-class="body_text">
-                                                                                          California Civil Code Section 1798.83, also known as the "Shine The Light" law, permits our users who are California residents to request and obtain from us, once a year
-                                                                                          and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses
-                                                                                          of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a
-                                                                                          request, please submit your request in writing to us by using the contact details provided in the section "
+                                                                                          California Civil Code Section 1798.83, also known as the &quot;Shine The Light&quot; law, permits our users who are California residents to request and obtain from us,
+                                                                                          once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names
+                                                                                          and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like
+                                                                                          to make such a request, please submit your request in writing to us by using the contact details provided in the section &quot;
                                                                                         </span>
                                                                                       </span>
                                                                                       <span data-custom-class="body_text">
@@ -4377,9 +4173,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       id="policyupdates"
                                                                                       style={{
@@ -4428,9 +4222,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -4450,7 +4242,7 @@ const PrivacyPolicy = () => {
                                                                                         >
                                                                                           <span data-custom-class="body_text">
                                                                                             <em>
-                                                                                              <strong>In Short:&nbsp;</strong>
+                                                                                              <strong>In Short:</strong>
                                                                                               Yes, we will update this notice as necessary to stay compliant with relevant laws.
                                                                                             </em>
                                                                                           </span>
@@ -4461,9 +4253,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -4482,8 +4272,8 @@ const PrivacyPolicy = () => {
                                                                                           }}
                                                                                         >
                                                                                           <span data-custom-class="body_text">
-                                                                                            We may update this Privacy Notice from time to time. The updated version will be indicated by an updated "Revised" date at the top of this Privacy Notice. If we make
-                                                                                            material changes to this Privacy Notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We
+                                                                                            We may update this Privacy Notice from time to time. The updated version will be indicated by an updated &quot;Revised&quot; date at the top of this Privacy Notice. If
+                                                                                            we make material changes to this Privacy Notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We
                                                                                             encourage you to review this Privacy Notice frequently to be informed of how we are protecting your information.
                                                                                           </span>
                                                                                         </span>
@@ -4493,9 +4283,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       id="contact"
                                                                                       style={{
@@ -4544,9 +4332,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -4589,9 +4375,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -4663,9 +4447,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       id="request"
                                                                                       style={{
@@ -4714,9 +4496,7 @@ const PrivacyPolicy = () => {
                                                                                       style={{
                                                                                         lineHeight: "1.5",
                                                                                       }}
-                                                                                    >
-                                                                                      &nbsp;
-                                                                                    </div>
+                                                                                    ></div>
                                                                                     <div
                                                                                       style={{
                                                                                         lineHeight: "1.5",
@@ -4738,7 +4518,7 @@ const PrivacyPolicy = () => {
                                                                                             Based on the applicable laws of your country or state of residence in the US, you may have the right to request access to the personal information we collect from you,
                                                                                             details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our
                                                                                             processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal
-                                                                                            information, please fill out and submit a&nbsp;
+                                                                                            information, please fill out and submit a
                                                                                           </span>
                                                                                           <span
                                                                                             style={{

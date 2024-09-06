@@ -4,6 +4,7 @@ import Layout from "@/components/Layout";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import CameraApp from "@/public/images/cameraPageBG.png";
+import prisma from "@/lib/prisma";
 
 import Logo from "@/public/images/logo.png";
 import { capitalize } from "@/helper/helperFunctions";
@@ -82,30 +83,109 @@ const StatePage = ({ stateName, allCities }) => {
 export default StatePage;
 
 export async function getStaticPaths() {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/states.json`);
-  const allStates = await res.json();
+  const states = [
+    "alabama",
+    "alaska",
+    "arizona",
+    "arkansas",
+    "california",
+    "colorado",
+    "connecticut",
+    "delaware",
+    "florida",
+    "georgia",
+    "hawaii",
+    "idaho",
+    "illinois",
+    "indiana",
+    "iowa",
+    "kansas",
+    "kentucky",
+    "louisiana",
+    "maine",
+    "maryland",
+    "massachusetts",
+    "michigan",
+    "minnesota",
+    "mississippi",
+    "missouri",
+    "montana",
+    "nebraska",
+    "nevada",
+    "new-hampshire",
+    "new-jersey",
+    "new-mexico",
+    "new-york",
+    "north-carolina",
+    "north-dakota",
+    "ohio",
+    "oklahoma",
+    "oregon",
+    "pennsylvania",
+    "rhode-island",
+    "south-carolina",
+    "south-dakota",
+    "tennessee",
+    "texas",
+    "utah",
+    "vermont",
+    "virginia",
+    "washington",
+    "west-virginia",
+    "wisconsin",
+    "wyoming",
+  ];
 
-  const paths = allStates.map((location) => ({
-    params: { state: location.stateName.toLowerCase() },
+  const paths = states.map((state) => ({
+    params: { state },
   }));
 
-  return { paths, fallback: false };
+  return {
+    paths,
+    fallback: false,
+  };
 }
 
 export async function getStaticProps(context) {
   const { state } = context.params;
 
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/all-cities-by-state?stateName=${state}`);
-  const allCities = await res.json();
+  // Replace hyphens with spaces for proper state formatting
+  const formattedState = state.replace(/-/g, " ");
 
-  const stateName = capitalize(state);
+  try {
+    // Make the Prisma query to get cities by state
+    const allCities = await prisma.new_cities.findMany({
+      where: {
+        state_name: {
+          equals: formattedState,
+          mode: "insensitive", // Makes the query case-insensitive
+        },
+      },
+      select: {
+        city: true,
+      },
+    });
 
-  return {
-    props: {
-      stateName,
-      allCities,
-    },
-  };
+    // Capitalize the state name
+    const stateName = capitalize(formattedState);
+
+    // Return the props to the component
+    return {
+      props: {
+        stateName,
+        allCities,
+      },
+    };
+  } catch (error) {
+    // Log the error for debugging
+    console.error("Error in getStaticProps:", error.message);
+    console.error(error);
+
+    // Optionally, you could return a 404 page if an error occurs
+    return {
+      notFound: true, // This will show the 404 page
+    };
+  }
 }
 
 /*

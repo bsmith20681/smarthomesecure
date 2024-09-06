@@ -17,13 +17,6 @@ const CityBio = ({ city, state }) => {
     });
   };
 
-  useEffect(() => {
-    setSpunHeadline(spinText(headline));
-    setFirstSentence(spinText(firstSentences));
-    setSecondSentence(spinText(secondSentences));
-    setThirdSentence(spinText(thirdSentences));
-  }, [city]);
-
   const headline = `{ADT is ${city}'s top pick for home security|
 Protect your ${city} home with ADT|
 ADT is ${city}'s go-to for home protection|
@@ -559,6 +552,13 @@ Our systems include all the essential features you need to keep your home secure
 <li className="city-paragraph text-special-grey font-manrope">Indoor and outdoor surveillance cameras</li>
 <li className="city-paragraph text-special-grey font-manrope">24/7 professional monitoring</li>
 </ul>}`;
+
+  useEffect(() => {
+    setSpunHeadline(spinText(headline));
+    setFirstSentence(spinText(firstSentences));
+    setSecondSentence(spinText(secondSentences));
+    setThirdSentence(spinText(thirdSentences));
+  }, [city, firstSentences, secondSentences, thirdSentences, headline]);
 
   return (
     <div className="home-security">
