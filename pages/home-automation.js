@@ -71,6 +71,7 @@ const HomeAutomation = () => {
         breadcrumb1={"Home"}
         breadcrumb2={"Home Automation"}
         breadcrumb2Link={"/home-automation"}
+        breadcrumb3={""}
         bannermaxwidth={"max-w-[550px]"}
         bannersideimagedisplay={"hidden"}
       />

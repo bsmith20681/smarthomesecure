@@ -78,7 +78,7 @@ const Hero = ({
                 </li>
                 <li className="mr-[5px]">
                   <Link href={"#"} className=" font-regular text-special-light-blue text-[14px] leading-[120%] uppercase hover:duration-300 hover:opacity-70">
-                    / {breadcrumb3}
+                    {breadcrumb3 === "" ? "" : "/ " + breadcrumb3}
                   </Link>
                 </li>
               </ul>

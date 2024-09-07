@@ -71,6 +71,7 @@ const Cameras = () => {
         breadcrumb1={"Home"}
         breadcrumb2={"Security Cameras"}
         breadcrumb2Link={"/cameras"}
+        breadcrumb3={""}
         bannersideimagedisplay={"hidden"}
       />
       <div className="py-[25px] even:bg-[#ecf7ff] main-div">

@@ -120,7 +120,7 @@ const Locations = () => {
                     <Geography
                       onClick={() => {
                         const stateName = geo.properties.name;
-                        return router.push(stateName.toLowerCase());
+                        return router.push(stateName.toLowerCase().replace(/\s+/g, "-"));
                       }}
                       style={{ default: { fill: "#0061aa" }, hover: { fill: "#00233D", cursor: "pointer" } }}
                       stroke="white"
@@ -145,7 +145,7 @@ const Locations = () => {
         <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 ">
           {StateList.map((state, index) => {
             return (
-              <Link key={"state" + index} className="text-adt-blue text-xl hover:text-adt-blue-dark transition delay-75" href={state.stateName.toLowerCase()}>
+              <Link key={"state" + index} className="text-adt-blue text-xl hover:text-adt-blue-dark transition delay-75" href={state.stateName.toLowerCase().replace(/\s+/g, "-")}>
                 {state.stateName}
               </Link>
             );

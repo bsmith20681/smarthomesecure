@@ -17,6 +17,7 @@ const prisma = require("../../lib/prisma");
 
 const CityPage = ({ citiesDB, cityName, stateName, nearbyCities, targetCityZipCode, targetCityState }) => {
   //removes hypen from city name if it exists
+  const formattedState = stateName.replace(/-/g, " ");
   const formattedCity = cityName.replace(/-/g, " ");
 
   const capitalize = (word) => {
@@ -32,11 +33,11 @@ const CityPage = ({ citiesDB, cityName, stateName, nearbyCities, targetCityZipCo
     <Layout>
       <Head>
         <title>
-          ADT Security in {capitalize(formattedCity)}, {stateName} | (833) 224-7221
+          ADT Security in {capitalize(formattedCity)}, {formattedState} | (833) 224-7221
         </title>
         <meta
           name="description"
-          content={`Protect your home in ${capitalize(formattedCity)}, ${stateName} with ADT Home Security. Enjoy comprehensive security solutions, including 24/7 monitoring and smart home integration, tailored to keep your home safe and secure.`}
+          content={`Protect your home in ${capitalize(formattedCity)}, ${formattedState} with ADT Home Security. Enjoy comprehensive security solutions, including 24/7 monitoring and smart home integration, tailored to keep your home safe and secure.`}
         />
         <script
           type="application/ld+json"
@@ -47,7 +48,7 @@ const CityPage = ({ citiesDB, cityName, stateName, nearbyCities, targetCityZipCo
               "@type": "WebPage",
               url: `https://www.smarthomesecure.com/${stateName}/${cityName}`,
               name: "ADT Security",
-              description: `Protect your home in ${capitalize(formattedCity)}, ${stateName} with ADT Home Security. Enjoy comprehensive security solutions, including 24/7 monitoring and smart home integration, tailored to keep your home safe and secure.`,
+              description: `Protect your home in ${capitalize(formattedCity)}, ${formattedState} with ADT Home Security. Enjoy comprehensive security solutions, including 24/7 monitoring and smart home integration, tailored to keep your home safe and secure.`,
               breadcrumb: {
                 "@type": "BreadcrumbList",
                 itemListElement: [
@@ -56,7 +57,7 @@ const CityPage = ({ citiesDB, cityName, stateName, nearbyCities, targetCityZipCo
                     position: 1,
                     item: {
                       id: `https://www.smarthomesecure.com/${stateName}/`,
-                      name: stateName,
+                      name: formattedState,
                     },
                   },
                   {
@@ -73,7 +74,7 @@ const CityPage = ({ citiesDB, cityName, stateName, nearbyCities, targetCityZipCo
                 "@type": "LocalBusiness",
                 image: CameraApp,
                 "@id": `https://www.smarthomesecure.com/${stateName}/${cityName}`,
-                name: `ADT Security ${cityName}, ${stateName}"`,
+                name: `ADT Security ${formattedCity}, ${formattedState}"`,
                 url: `https://www.smarthomesecure.com/${stateName}/${cityName}`,
                 parentOrganization: {
                   "@type": "Organization",
@@ -99,7 +100,7 @@ const CityPage = ({ citiesDB, cityName, stateName, nearbyCities, targetCityZipCo
       </Head>
 
       <Hero
-        rightimage={`/images/state-home-images/${capitalize(stateName)}.jpg`}
+        rightimage={`/images/state-home-images/${capitalize(formattedState)}.jpg`}
         paddingtop={"pt-0"}
         paddingtopscreen={"lg:pt-0"}
         paddingbottom={"pb-0"}
@@ -107,18 +108,18 @@ const CityPage = ({ citiesDB, cityName, stateName, nearbyCities, targetCityZipCo
         bldisplay={"hidden"}
         beadcrumbdisplay={"flex"}
         bannertitle={`ADT Home Security in`}
-        bannertitlespan={`${capitalize(formattedCity)}, ${capitalize(stateName)}`}
+        bannertitlespan={`${capitalize(formattedCity)}, ${capitalize(formattedState)}`}
         bannertitleright={""}
         bannermaxwidth={""}
         breadcrumb1={"Locations"}
-        breadcrumb2={`${capitalize(stateName)}`}
-        breadcrumb2Link={`/${capitalize(stateName)}`}
+        breadcrumb2={`${capitalize(formattedState)}`}
+        breadcrumb2Link={`/${stateName.toLowerCase().replace(/\s+/g, "-")}`}
         breadcrumb3={`${capitalize(formattedCity)}`}
         bannersideimagedisplay={"block"}
       />
-      <ServiceArea nearbyCities={nearbyCities} targetCityZipCode={targetCityZipCode} targetCityState={targetCityState} city={capitalize(formattedCity)} state={capitalize(stateName)} />
+      <ServiceArea nearbyCities={nearbyCities} targetCityZipCode={targetCityZipCode} targetCityState={targetCityState} city={capitalize(formattedCity)} state={capitalize(formattedState)} />
       <PricingChart bgprice={"bg-[#ecf7ff]"} />
-      <CityBio city={capitalize(formattedCity)} state={capitalize(stateName)} />
+      <CityBio city={capitalize(formattedCity)} state={capitalize(formattedState)} />
       <HowToOrder margintoporder={"mt-0"} paddingtoporder={"pt-[60px]"} paddingbottomorder={"pb-[40px]"} margintoplistorder={"mb-0"} />
       <Testimonials paddingtoptest={"pt-[90px]"} paddingtoptestscreen={"lg:pt-[90px]"} />
     </Layout>
@@ -141,18 +142,19 @@ export async function getStaticPaths() {
       },
     });
 
-    console.log(citiesDB);
-
     // Map cities to paths
     const paths = citiesDB.map((cityData) => ({
       params: {
-        state: cityData.state_name.toLowerCase(),
+        state: cityData.state_name.toLowerCase().replace(/\s+/g, "-"),
         city: cityData.city.toLowerCase().replace(/\s+/g, "-"),
       },
     }));
 
+    console.log("PATHS");
+    console.log(paths);
+
     // Return paths with fallback behavior
-    return { paths, fallback: false };
+    return { paths, fallback: "blocking" };
   } catch (error) {
     // Log the error to the console for debugging
     console.error("Error in getStaticPaths:", error.message);
@@ -166,6 +168,7 @@ export async function getStaticProps(context) {
   const { city, state } = context.params;
 
   // Replace hyphens with spaces for proper city formatting
+  const formattedState = state.replace(/-/g, " ");
   const formattedCity = city.replace(/-/g, " ");
 
   try {
@@ -177,7 +180,7 @@ export async function getStaticProps(context) {
           mode: "insensitive", // Case-insensitive match for city name
         },
         state_name: {
-          equals: state,
+          equals: formattedState,
           mode: "insensitive", // Case-insensitive match for state name
         },
       },
@@ -238,14 +241,6 @@ export async function getStaticProps(context) {
     const stateName = capitalize(state);
     const cityName = city;
 
-    console.log("state name");
-    console.log(stateName);
-
-    console.log("city name");
-    console.log(cityName);
-
-    //console.log("Nearby Cities");
-    //console.log(nearbyCities);
     const targetCityZipCode = targetCity.zip;
     const targetCityState = targetCity.state_name;
 

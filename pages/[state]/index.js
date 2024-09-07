@@ -70,7 +70,7 @@ const StatePage = ({ stateName, allCities }) => {
         <h1 className="md:text-4xl text-2xl font-bold my-10">{stateName}</h1>
         <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 my-6 md:my-12">
           {allCities.map((item, index) => (
-            <Link key={index} className="text-adt-blue text-xl hover:text-adt-blue-dark transition delay-75" href={`${stateName.toLowerCase()}/${item.city.replace(/\s+/g, "-").toLowerCase()}`}>
+            <Link key={index} className="text-adt-blue text-xl hover:text-adt-blue-dark transition delay-75" href={`${stateName.toLowerCase().replace(/\s+/g, "-")}/${item.city.replace(/\s+/g, "-").toLowerCase()}`}>
               {item.city}
             </Link>
           ))}
