@@ -253,6 +253,7 @@ export async function getStaticProps(context) {
         targetCityZipCode,
         targetCityState,
       },
+      revalidate: 60 * 60 * 24 * 30 * 6,
     };
   } catch (error) {
     // Log the error for debugging
