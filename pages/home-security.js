@@ -14,7 +14,7 @@ const HomeSecurity = () => {
   return (
     <Layout>
       <Head>
-        <title>Home Security | ADT Security</title>
+        <title>ADT home security</title>
         <meta
           name="description"
           content="Explore ADT Home Security. Safeguard your home with our advanced security systems featuring real-time alerts, professional monitoring, and smart home integration. Trust ADT for comprehensive protection and peace of mind."

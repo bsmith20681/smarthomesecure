@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
+import Image from "next-export-optimize-images/image";
 import Order1 from "@/public/images/order-img-1.png";
 import Order2 from "@/public/images/order-img-2.png";
 import Order3 from "@/public/images/order-img-3.png";

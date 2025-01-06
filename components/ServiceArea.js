@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "next-export-optimize-images/image";
 import serviceLeft from "@/public/images/service-left.png";
 import serviceImgCenter from "@/public/images/service-img-center.png";
 

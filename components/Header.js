@@ -4,7 +4,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { PhoneIcon, ChevronDownIcon } from "@heroicons/react/24/solid";
 
 import Logo from "../public/images/logo.png";
-import Image from "next/image";
+import Image from "next-export-optimize-images/image";
 import Link from "next/link";
 
 const navigation = [

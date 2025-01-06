@@ -4,19 +4,28 @@ generator client {
 
 datasource db {
   provider  = "postgresql"
-  url       = env("POSTGRES_PRISMA_URL")
-  directUrl = env("POSTGRES_URL_NON_POOLING")
+  url       = "postgresql://postgres:hassan343@localhost:5432/cities_db"
+  directUrl = "postgresql://postgres:hassan343@localhost:5432/cities_db"
 }
 
 model new_cities {
-  id          Int       @id @default(autoincrement())
-  zip         String    @db.VarChar(10)
-  lat         Decimal?  @db.Decimal(10, 7)
-  lng         Decimal?  @db.Decimal(10, 7)
-  city        String    @db.VarChar(100)
-  state_id    String    @db.Char(2)
-  state_name  String    @db.VarChar(100)
-  geog_point  Bytes?    @map("geog_point")
+  id         Int                       @id @default(autoincrement())
+  zip        String?                   @db.VarChar(10)
+  lat        Decimal?                  @db.Decimal(10, 7)
+  lng        Decimal?                  @db.Decimal(10, 7)
+  city       String?                   @db.VarChar(100)
+  state_id   String?                   @db.Char(2)
+  state_name String?                   @db.VarChar(100)
+  geog_point Unsupported("geography")? @map("geog_point")
 
   @@map("new_cities")
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model spatial_ref_sys {
+  srid      Int     @id
+  auth_name String? @db.VarChar(256)
+  auth_srid Int?
+  srtext    String? @db.VarChar(2048)
+  proj4text String? @db.VarChar(2048)
 }

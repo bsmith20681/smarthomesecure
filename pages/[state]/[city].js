@@ -20,6 +20,7 @@ const CityPage = ({ citiesDB, cityName, stateName, nearbyCities, targetCityZipCo
   const formattedState = stateName.replace(/-/g, " ");
   const formattedCity = cityName.replace(/-/g, " ");
 
+
   const capitalize = (word) => {
     if (!word) return "";
 
@@ -131,6 +132,14 @@ export default CityPage;
 export async function getStaticPaths() {
   try {
     const citiesDB = await prisma.new_cities.findMany({
+      where: {
+        AND: [
+          { state_name: { not: null } },
+          { city: { not: null } },
+          { lat: { not: null } },
+          { lng: { not: null } }
+        ]
+      },
       select: {
         id: true,
         zip: true,
@@ -141,8 +150,7 @@ export async function getStaticPaths() {
         state_name: true,
       },
     });
-
-    // Map cities to paths
+    
     const paths = citiesDB.slice(0, 10000).map((cityData) => ({
       params: {
         state: cityData.state_name.toLowerCase().replace(/\s+/g, "-"),
@@ -150,11 +158,9 @@ export async function getStaticPaths() {
       },
     }));
 
-    console.log("PATHS");
-    console.log(paths);
 
     // Return paths with fallback behavior
-    return { paths, fallback: "blocking" };
+    return { paths, fallback: false};
   } catch (error) {
     // Log the error to the console for debugging
     console.error("Error in getStaticPaths:", error.message);
@@ -165,11 +171,14 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
+  console.log("Starting getStaticPaths");
   const { city, state } = context.params;
+  console.log(city,state, "params")
 
   // Replace hyphens with spaces for proper city formatting
   const formattedState = state.replace(/-/g, " ");
   const formattedCity = city.replace(/-/g, " ");
+  console.log(formattedCity, "params")
 
   try {
     // Find the target city along with its latitude, longitude, ZIP code, and state
@@ -191,6 +200,9 @@ export async function getStaticProps(context) {
         state_name: true,
       },
     });
+
+    console.log(targetCity)
+
 
     // If the city is not found, return a 404
     if (!targetCity) {
@@ -237,6 +249,7 @@ export async function getStaticProps(context) {
       miles_from_dt: city.miles_from_dt.toNumber(),
     }));
 
+
     // Capitalize the state name if needed (assuming you have a capitalize function)
     const stateName = capitalize(state);
     const cityName = city;
@@ -253,7 +266,6 @@ export async function getStaticProps(context) {
         targetCityZipCode,
         targetCityState,
       },
-      revalidate: 60 * 60 * 24 * 30 * 6,
     };
   } catch (error) {
     // Log the error for debugging
@@ -266,25 +278,3 @@ export async function getStaticProps(context) {
   }
 }
 
-{
-  /*export async function getServerSideProps(context) {
-  const { city, state } = context.query;
-
-  //removes hypen from city name if it exists
-  const formattedCity = city.replace(/-/g, " ");
-
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/all-cities`);
-  const citiesDB = await res.json();
-
-  const nearbyCitiesRes = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/nearby-cities?cityName=${formattedCity}&state=${state}`);
-  
-  const nearbyCitiesDB = await nearbyCitiesRes.json();
-
-  return {
-    props: {
-      citiesDB,
-      nearbyCitiesDB,
-    },
-  };
-}*/
-}

@@ -1,0 +1,80 @@
+# Project Documentation
+
+## Table of Contents
+
+1. [Major Change 1: Conversion of Website to Static HTML Pages](#major-change-1-conversion-of-website-to-static-html-pages)
+2. [Major Change 2: Next/Image changed to next-export-optimize-images/image](#major-change-2-next-image-changed-to-next-export-optimize-images-image)
+
+---
+
+## Task 1: Conversion of Website to Static HTML Pages
+
+To enhance website performance, scalability, and load times, the website has been converted to use static HTML pages. This process ensures a more efficient and reliable user experience.
+
+### Steps Undertaken
+
+1. **Database Initialization**
+   - **Local Database Setup:** Created a local instance of the database to facilitate development and testing.
+   - **Data Migration:** Imported the existing CSV data into the local database, ensuring all necessary information is accurately transferred.
+
+2. **Prisma Integration**
+   - **Database Connection:** Connected the local database to Prisma, enabling efficient database management and query handling within the application.
+
+3. **Sitemap Configuration Adjustments**
+   - **Removed Revalidate Option:** Eliminated the `revalidate` parameter from the `city-sitemap` configuration because Incremental Static Regeneration (ISR) is not compatible with the static export process.
+
+4. **Data Filtering Enhancements**
+   - **Record Validation:** Implemented filters to include only records where `latitude`, `longitude`, `state`, and `city` fields are not null. This ensures that all static pages contain complete and accurate location data.
+
+5. **Next.js Configuration Update**
+   - **Static Export Setting:** Added `output: 'export'` to the `next.config.js` file to enable the static export feature of Next.js, finalizing the transition to static HTML pages.
+
+---
+
+## Task 2: Next/Image changed to next-export-optimize-images/image
+
+To further optimize image performance and reduce build time, the default Next.js `next/image` component was replaced with the `next-export-optimize-images/image` package.
+
+### Steps Undertaken
+
+1. **Install the Required Package**
+   - Add the `next-export-optimize-images` package to the project by running the following command:
+     ```bash
+     npm install next-export-optimize-images
+     ```
+
+2. **Update Configuration**
+   - Modify the `next.config.js` file to include the new package:
+     ```javascript
+     const withExportImages = require('next-export-optimize-images');
+
+     module.exports = withExportImages({
+       // Other Next.js configurations
+       output: 'export',
+     });
+     ```
+
+3. **Replace Next/Image Usage**
+   - Locate all instances of the `next/image` component in the codebase.
+   - Replace the import statement from:
+     ```javascript
+     import Image from 'next/image';
+     ```
+     to:
+     ```javascript
+     import Image from 'next-export-optimize-images/image';
+     ```
+
+4. **Test Image Rendering**
+   - Verify that all images are rendered correctly on both development and production builds to ensure seamless integration and functionality.
+
+5. **Rebuild and Deploy**
+   - Run a complete rebuild of the application to generate optimized images and validate the changes:
+     ```bash
+     npm run build
+     npm run export
+     ```
+   - Deploy the updated application to the production environment.
+
+---
+

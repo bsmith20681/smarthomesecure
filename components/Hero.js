@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "next-export-optimize-images/image";
 import Link from "next/link";
 import CallButton from "./CallButton";
 
@@ -34,9 +34,9 @@ const Hero = ({
             <div className="banner-left-start lg:w-[45%] relative before:'' before:absolute before:w-[198px] before:h-[4px] before:left-0 before:top-[-30px] before:bg-[#00233D] max-w-[470px] lg:max-w-[unset] mx-auto lg:mx-0">
               <div className="banner-left-above mb-[40px]">
                 <div className={`banner-title mb-[20px] ${bannermaxwidth} `}>
-                  <h2 className="text-[#00233d]  font-extrabold text-[40px] xl:text-[50px] 2xl:text-[60px] leading-[117%]">
+                  <h1 className="text-[#00233d]  font-extrabold text-[40px] xl:text-[50px] 2xl:text-[60px] leading-[117%]">
                     {bannertitle} <span className="text-[#0061aa]">{bannertitlespan}</span> {bannertitleright}
-                  </h2>
+                  </h1>
                 </div>
                 <div className="banner-text mb-[30px]">
                   <p className="mb-0  font-regular text-[18px] leading-[156%] text-[#2c2c2c]">Experience peace of mind with advanced security solutions designed to keep your home safe, 24/7.</p>

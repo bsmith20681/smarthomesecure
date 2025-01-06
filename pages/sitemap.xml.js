@@ -85,7 +85,7 @@ const SiteMap = ({ currentDate }) => {
               <td>
                 <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/state-sitemap.xml`}>States Sitemap</a>
               </td>
-              <td>{currentDate}</td>
+              <td>{currentDate}</td> 
             </tr>
             <tr>
               <td>

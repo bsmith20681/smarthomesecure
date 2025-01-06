@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
+import Image from "next-export-optimize-images/image";
 import Calendar from "@/public/images/calendar.png";
 import Building from "@/public/images/building.png";
 import Mobile from "@/public/images/mobile.png";

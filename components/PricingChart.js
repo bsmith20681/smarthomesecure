@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "next-export-optimize-images/image";
 import Link from "next/link";
 import PricingOne from "@/public/images/home-automation.png";
 import PricingTwo from "@/public/images/camera-package.png";

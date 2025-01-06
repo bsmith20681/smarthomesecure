@@ -9,6 +9,14 @@ export const getStaticProps = async () => {
 
   try {
     const citiesDB = await prisma.new_cities.findMany({
+      where: {
+        AND: [
+          { state_name: { not: null } },
+          { city: { not: null } },
+          { lat: { not: null } },
+          { lng: { not: null } }
+        ]
+      },
       select: {
         id: true,
         city: true,

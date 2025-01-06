@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Image from "next/image";
+import Image from "next-export-optimize-images/image";
 import Homesecurity from "@/public/images/home-security.png";
 import parse from "html-react-parser";
 
