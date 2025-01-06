@@ -113,7 +113,7 @@ const CitySiteMap = ({ currentDate, citiesDB }) => {
             {citiesDB.map((data, index) => (
               <tr key={index}>
                 <td>
-                  <a href={`${process.env.NEXT_PUBLIC_BASE_URL}${data.state_name.toLowerCase().replace(/\s+/g, "-")}/${data.city.toLowerCase().replace(/\s+/g, "-")}`}>{`${process.env.NEXT_PUBLIC_BASE_URL}${data.state_name
+                  <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/${data.state_name.toLowerCase().replace(/\s+/g, "-")}/${data.city.toLowerCase().replace(/\s+/g, "-")}`}>{`${process.env.NEXT_PUBLIC_BASE_URL}${data.state_name
                     .toLowerCase()
                     .replace(/\s+/g, "-")}/${data.city.toLowerCase().replace(/\s+/g, "-")}`}</a>
                 </td>

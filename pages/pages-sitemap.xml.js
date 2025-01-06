@@ -91,43 +91,43 @@ const PageSiteMap = ({ currentDate }) => {
             </tr>
             <tr>
               <td>
-                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/cameras`}>{`${process.env.NEXT_PUBLIC_BASE_URL}cameras`}</a>
+                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/cameras`}>{`${process.env.NEXT_PUBLIC_BASE_URL}/cameras`}</a>
               </td>
               <td>{currentDate}</td>
             </tr>
             <tr>
               <td>
-                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/home-security`}>{`${process.env.NEXT_PUBLIC_BASE_URL}home-security`}</a>
+                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/home-security`}>{`${process.env.NEXT_PUBLIC_BASE_URL}/home-security`}</a>
               </td>
               <td>{currentDate}</td>
             </tr>
             <tr>
               <td>
-                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/home-automation`}>{`${process.env.NEXT_PUBLIC_BASE_URL}home-automation`}</a>
+                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/home-automation`}>{`${process.env.NEXT_PUBLIC_BASE_URL}/home-automation`}</a>
               </td>
               <td>{currentDate}</td>
             </tr>
             <tr>
               <td>
-                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/pricing`}>{`${process.env.NEXT_PUBLIC_BASE_URL}pricing`}</a>
+                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/pricing`}>{`${process.env.NEXT_PUBLIC_BASE_URL}/pricing`}</a>
               </td>
               <td>{currentDate}</td>
             </tr>
             <tr>
               <td>
-                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/locations`}>{`${process.env.NEXT_PUBLIC_BASE_URL}locations`}</a>
+                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/locations`}>{`${process.env.NEXT_PUBLIC_BASE_URL}/locations`}</a>
               </td>
               <td>{currentDate}</td>
             </tr>
             <tr>
               <td>
-                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/contact-us`}>{`${process.env.NEXT_PUBLIC_BASE_URL}contact-us`}</a>
+                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/contact-us`}>{`${process.env.NEXT_PUBLIC_BASE_URL}/contact-us`}</a>
               </td>
               <td>{currentDate}</td>
             </tr>
             <tr>
               <td>
-                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/privacy-policy`}>{`${process.env.NEXT_PUBLIC_BASE_URL}privacy-policy`}</a>
+                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/privacy-policy`}>{`${process.env.NEXT_PUBLIC_BASE_URL}/privacy-policy`}</a>
               </td>
               <td>{currentDate}</td>
             </tr>

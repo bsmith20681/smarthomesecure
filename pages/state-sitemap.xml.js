@@ -140,7 +140,7 @@ const StateSiteMap = ({ currentDate, states }) => {
             {states.map((state, index) => (
               <tr key={index}>
                 <td>
-                  <a href={`${process.env.NEXT_PUBLIC_BASE_URL}${state}`}>{`${process.env.NEXT_PUBLIC_BASE_URL}${state}`}</a>
+                  <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/${state}`}>{`${process.env.NEXT_PUBLIC_BASE_URL}/${state}`}</a>
                 </td>
                 <td>{currentDate}</td>
               </tr>
