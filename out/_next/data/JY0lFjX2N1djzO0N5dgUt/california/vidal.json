@@ -1,0 +1,1 @@
+{"pageProps":{"stateName":"California","cityName":"vidal","nearbyCities":[{"city":"Poston","state_name":"Arizona","lat":33.96732,"lng":-114.39005,"zip":"85371","miles_from_dt":28.75},{"city":"Desert Center","state_name":"California","lat":33.87424,"lng":-115.24396,"zip":"92239","miles_from_dt":29.24}],"targetCityZipCode":"92280","targetCityState":"California"},"__N_SSG":true}

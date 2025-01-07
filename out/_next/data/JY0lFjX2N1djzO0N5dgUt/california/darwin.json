@@ -1,0 +1,1 @@
+{"pageProps":{"stateName":"California","cityName":"darwin","nearbyCities":[{"city":"Keeler","state_name":"California","lat":36.48458,"lng":-117.87201,"zip":"93530","miles_from_dt":20.01},{"city":"Olancha","state_name":"California","lat":36.27728,"lng":-117.96016,"zip":"93549","miles_from_dt":20.33}],"targetCityZipCode":"93522","targetCityState":"California"},"__N_SSG":true}

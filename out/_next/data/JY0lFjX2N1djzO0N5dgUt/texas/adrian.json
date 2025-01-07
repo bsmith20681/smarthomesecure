@@ -1,0 +1,1 @@
+{"pageProps":{"stateName":"Texas","cityName":"adrian","nearbyCities":[{"city":"Vega","state_name":"Texas","lat":35.28133,"lng":-102.48784,"zip":"79092","miles_from_dt":17.78},{"city":"Bard","state_name":"New Mexico","lat":35.23488,"lng":-103.16248,"zip":"88411","miles_from_dt":20.63}],"targetCityZipCode":"79001","targetCityState":"Texas"},"__N_SSG":true}

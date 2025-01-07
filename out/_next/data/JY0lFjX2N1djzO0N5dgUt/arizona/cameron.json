@@ -1,0 +1,1 @@
+{"pageProps":{"stateName":"Arizona","cityName":"cameron","nearbyCities":[{"city":"Gray Mountain","state_name":"Arizona","lat":35.74486,"lng":-111.6373,"zip":"86016","miles_from_dt":19.02},{"city":"Tuba City","state_name":"Arizona","lat":36.14775,"lng":-111.13344,"zip":"86045","miles_from_dt":23.5}],"targetCityZipCode":"86020","targetCityState":"Arizona"},"__N_SSG":true}

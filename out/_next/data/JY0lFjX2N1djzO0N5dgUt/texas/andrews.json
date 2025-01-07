@@ -1,0 +1,1 @@
+{"pageProps":{"stateName":"Texas","cityName":"andrews","nearbyCities":[{"city":"Goldsmith","state_name":"Texas","lat":32.00833,"lng":-102.65675,"zip":"79741","miles_from_dt":22.37},{"city":"Seminole","state_name":"Texas","lat":32.69018,"lng":-102.72482,"zip":"79360","miles_from_dt":24.86}],"targetCityZipCode":"79714","targetCityState":"Texas"},"__N_SSG":true}

@@ -1,0 +1,1 @@
+{"pageProps":{"stateName":"Texas","cityName":"redford","nearbyCities":[{"city":"Terlingua","state_name":"Texas","lat":29.36484,"lng":-103.6029,"zip":"79852","miles_from_dt":23.36},{"city":"Presidio","state_name":"Texas","lat":29.65332,"lng":-104.39724,"zip":"79845","miles_from_dt":29.67}],"targetCityZipCode":"79846","targetCityState":"Texas"},"__N_SSG":true}

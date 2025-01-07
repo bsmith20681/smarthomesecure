@@ -1,0 +1,1 @@
+{"pageProps":{"stateName":"Texas","cityName":"el-indio","nearbyCities":[{"city":"Carrizo Springs","state_name":"Texas","lat":28.54776,"lng":-99.87286,"zip":"78834","miles_from_dt":24.54},{"city":"Eagle Pass","state_name":"Texas","lat":28.68217,"lng":-100.48406,"zip":"78853","miles_from_dt":25.84}],"targetCityZipCode":"78860","targetCityState":"Texas"},"__N_SSG":true}

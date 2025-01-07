@@ -1,0 +1,1 @@
+{"pageProps":{"stateName":"Alaska","cityName":"cordova","nearbyCities":[{"city":"Tatitlek","state_name":"Alaska","lat":60.89217,"lng":-146.67249,"zip":"99677","miles_from_dt":13.9},{"city":"Valdez","state_name":"Alaska","lat":61.04886,"lng":-146.19038,"zip":"99686","miles_from_dt":22.64}],"targetCityZipCode":"99574","targetCityState":"Alaska"},"__N_SSG":true}

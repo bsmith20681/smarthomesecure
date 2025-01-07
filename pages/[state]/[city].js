@@ -151,7 +151,7 @@ export async function getStaticPaths() {
       },
     });
     
-    const paths = citiesDB.slice(0, 10000).map((cityData) => ({
+    const paths = citiesDB.map((cityData) => ({
       params: {
         state: cityData.state_name.toLowerCase().replace(/\s+/g, "-"),
         city: cityData.city.toLowerCase().replace(/\s+/g, "-"),

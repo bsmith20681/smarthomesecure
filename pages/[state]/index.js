@@ -83,69 +83,37 @@ const StatePage = ({ stateName, allCities }) => {
 export default StatePage;
 
 export async function getStaticPaths() {
-  const states = [
-    "alabama",
-    "alaska",
-    "arizona",
-    "arkansas",
-    "california",
-    "colorado",
-    "connecticut",
-    "delaware",
-    "florida",
-    "georgia",
-    "hawaii",
-    "idaho",
-    "illinois",
-    "indiana",
-    "iowa",
-    "kansas",
-    "kentucky",
-    "louisiana",
-    "maine",
-    "maryland",
-    "massachusetts",
-    "michigan",
-    "minnesota",
-    "mississippi",
-    "missouri",
-    "montana",
-    "nebraska",
-    "nevada",
-    "new-hampshire",
-    "new-jersey",
-    "new-mexico",
-    "new-york",
-    "north-carolina",
-    "north-dakota",
-    "ohio",
-    "oklahoma",
-    "oregon",
-    "pennsylvania",
-    "rhode-island",
-    "south-carolina",
-    "south-dakota",
-    "tennessee",
-    "texas",
-    "utah",
-    "vermont",
-    "virginia",
-    "washington",
-    "west-virginia",
-    "wisconsin",
-    "wyoming",
-  ];
+  try {
+    const states = await prisma.new_cities.findMany({
+      where: {
+        state_name: {
+          not: null
+        }
+      },
+      select: {
+        state_name: true
+      },
+      distinct: ['state_name']
+    });
 
-  const paths = states.map((state) => ({
-    params: { state },
-  }));
+    const paths = states.map((stateData) => ({
+      params: {
+        state: stateData.state_name.toLowerCase().replace(/\s+/g, "-")
+      }
+    }));
 
-  return {
-    paths,
-    fallback: false,
-  };
+    return {
+      paths,
+      fallback: false
+    };
+  } catch (error) {
+    console.error("Error in state getStaticPaths:", error);
+    return {
+      paths: [],
+      fallback: false
+    };
+  }
 }
-
 export async function getStaticProps(context) {
   const { state } = context.params;
 

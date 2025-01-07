@@ -1,0 +1,1 @@
+{"pageProps":{"stateName":"Texas","cityName":"dell-city","nearbyCities":[{"city":"Salt Flat","state_name":"Texas","lat":31.78975,"lng":-104.99032,"zip":"79847","miles_from_dt":26.39},{"city":"Pinon","state_name":"New Mexico","lat":32.5105,"lng":-105.2235,"zip":"88344","miles_from_dt":27.27}],"targetCityZipCode":"79837","targetCityState":"Texas"},"__N_SSG":true}

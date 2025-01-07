@@ -1,0 +1,1 @@
+{"pageProps":{"stateName":"Oregon","cityName":"princeton","nearbyCities":[{"city":"Diamond","state_name":"Oregon","lat":42.95733,"lng":-118.69241,"zip":"97722","miles_from_dt":9.7},{"city":"Frenchglen","state_name":"Oregon","lat":42.66655,"lng":-118.92058,"zip":"97736","miles_from_dt":25.2}],"targetCityZipCode":"97721","targetCityState":"Oregon"},"__N_SSG":true}

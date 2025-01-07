@@ -1,0 +1,1 @@
+{"pageProps":{"stateName":"Utah","cityName":"moab","nearbyCities":[{"city":"La Sal","state_name":"Utah","lat":38.23736,"lng":-109.40846,"zip":"84530","miles_from_dt":20.99},{"city":"Gateway","state_name":"Colorado","lat":38.66026,"lng":-108.93025,"zip":"81522","miles_from_dt":29.83}],"targetCityZipCode":"84532","targetCityState":"Utah"},"__N_SSG":true}

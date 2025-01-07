@@ -1,0 +1,1 @@
+{"pageProps":{"stateName":"Oregon","cityName":"paulina","nearbyCities":[{"city":"Post","state_name":"Oregon","lat":44.14094,"lng":-120.20584,"zip":"97752","miles_from_dt":19.22},{"city":"Dayville","state_name":"Oregon","lat":44.38804,"lng":-119.51852,"zip":"97825","miles_from_dt":22.28}],"targetCityZipCode":"97751","targetCityState":"Oregon"},"__N_SSG":true}

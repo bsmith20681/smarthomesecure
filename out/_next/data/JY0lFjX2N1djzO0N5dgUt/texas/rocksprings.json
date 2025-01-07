@@ -1,0 +1,1 @@
+{"pageProps":{"stateName":"Texas","cityName":"rocksprings","nearbyCities":[{"city":"Barksdale","state_name":"Texas","lat":29.84372,"lng":-99.99375,"zip":"78828","miles_from_dt":18.98},{"city":"Camp Wood","state_name":"Texas","lat":29.69785,"lng":-99.97248,"zip":"78833","miles_from_dt":25.97}],"targetCityZipCode":"78880","targetCityState":"Texas"},"__N_SSG":true}

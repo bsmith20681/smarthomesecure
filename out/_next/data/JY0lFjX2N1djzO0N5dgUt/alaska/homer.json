@@ -1,0 +1,1 @@
+{"pageProps":{"stateName":"Alaska","cityName":"homer","nearbyCities":[{"city":"Seldovia","state_name":"Alaska","lat":59.39488,"lng":-151.62729,"zip":"99663","miles_from_dt":16.64},{"city":"Anchor Point","state_name":"Alaska","lat":59.82955,"lng":-151.64298,"zip":"99556","miles_from_dt":25.67}],"targetCityZipCode":"99603","targetCityState":"Alaska"},"__N_SSG":true}

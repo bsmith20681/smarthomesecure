@@ -1,0 +1,1 @@
+{"pageProps":{"stateName":"Arizona","cityName":"tuba-city","nearbyCities":[{"city":"Cameron","state_name":"Arizona","lat":36.00133,"lng":-111.51263,"zip":"86020","miles_from_dt":23.5},{"city":"Hotevilla","state_name":"Arizona","lat":35.87005,"lng":-110.80709,"zip":"86030","miles_from_dt":26.47}],"targetCityZipCode":"86045","targetCityState":"Arizona"},"__N_SSG":true}
