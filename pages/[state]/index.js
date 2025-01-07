@@ -132,6 +132,10 @@ export async function getStaticProps(context) {
       select: {
         city: true,
       },
+      distinct: ['city'], // Ensures only unique city names are returned
+      orderBy: {
+        city: 'asc', // Optional: orders cities alphabetically
+      },
     });
 
     // Capitalize the state name

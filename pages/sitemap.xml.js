@@ -83,13 +83,13 @@ const SiteMap = ({ currentDate }) => {
           <tbody>
             <tr>
               <td>
-                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/state-sitemap-xml`}>States Sitemap</a>
+                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/state-sitemap.xml`}>States Sitemap</a>
               </td>
               <td>{currentDate}</td> 
             </tr>
             <tr>
               <td>
-                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/city-sitemap-xml`}>Cities Sitemap</a>
+                <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/city-sitemap.xml`}>Cities Sitemap</a>
               </td>
               <td>{currentDate}</td>
             </tr>

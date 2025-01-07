@@ -23,8 +23,12 @@ export const getStaticProps = async () => {
         state_id: true,
         state_name: true,
       },
+      distinct: ['city', 'state_name'], // Ensures cities are unique within each state
+      orderBy: [
+        { state_name: 'asc' },
+        { city: 'asc' }
+      ],
     });
-
     // Map cities to paths
 
     return {
@@ -114,7 +118,7 @@ const CitySiteMap = ({ currentDate, citiesDB }) => {
             {citiesDB.map((data, index) => (
               <tr key={index}>
                 <td>
-                  <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/${data.state_name.toLowerCase().replace(/\s+/g, "-")}/${data.city.toLowerCase().replace(/\s+/g, "-")}`}>{`${process.env.NEXT_PUBLIC_BASE_URL}${data.state_name
+                  <a href={`${process.env.NEXT_PUBLIC_BASE_URL}/${data.state_name.toLowerCase().replace(/\s+/g, "-")}/${data.city.toLowerCase().replace(/\s+/g, "-")}`}>{`${process.env.NEXT_PUBLIC_BASE_URL}/${data.state_name
                     .toLowerCase()
                     .replace(/\s+/g, "-")}/${data.city.toLowerCase().replace(/\s+/g, "-")}`}</a>
                 </td>

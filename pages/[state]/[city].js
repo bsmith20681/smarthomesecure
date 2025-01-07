@@ -171,14 +171,11 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-  console.log("Starting getStaticPaths");
   const { city, state } = context.params;
-  console.log(city,state, "params")
 
   // Replace hyphens with spaces for proper city formatting
   const formattedState = state.replace(/-/g, " ");
   const formattedCity = city.replace(/-/g, " ");
-  console.log(formattedCity, "params")
 
   try {
     // Find the target city along with its latitude, longitude, ZIP code, and state
@@ -201,7 +198,6 @@ export async function getStaticProps(context) {
       },
     });
 
-    console.log(targetCity)
 
 
     // If the city is not found, return a 404

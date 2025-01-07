@@ -127,7 +127,7 @@ const StateSiteMap = ({ currentDate, states }) => {
         <p>
           This HTML Sitemap Index file contains <strong>3</strong> sitemaps:
         </p>
-        <Link href="/sitemap-xml">Go back to sitemap</Link>
+        <Link href="/sitemap.xml">Go back to sitemap</Link>
 
         <table>
           <thead>
