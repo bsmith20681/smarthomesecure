@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "prisma generate && next build && next-export-optimize-images",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-sitemap": "node scripts/generate-sitemap.js"
   },
   "dependencies": {
     "@headlessui/react": "^2.0.4",
