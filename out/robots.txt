@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.smarthousesecure.com/sitemap.xml
+Sitemap: https://smarthousesecure.com/sitemap1.xml
